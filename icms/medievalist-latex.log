@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.6)  14 MAY 2026 12:14
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.6)  14 MAY 2026 12:20
  restricted system commands enabled.
 **medievalist-latex.tex
 (./medievalist-latex.tex
@@ -1131,6 +1131,8 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 
 ] [3
 
+] [4
+
 ]
 \tf@nav=\write6
 
@@ -1156,14 +1158,14 @@ Package rerunfilecheck Info: File `medievalist-latex.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26985 strings out of 476076
+ 26989 strings out of 476076
  100000,953878 words of node,token memory allocated
- 1175 words of node memory still in use:
-   17 hlist, 9 vlist, 4 rule, 1 disc, 2 local_par, 29 glue, 4 kern, 9 penalty, 7
- glyph, 40 attribute, 61 glue_spec, 40 attribute_list, 4 write, 10 pdf_colorstac
-k nodes
-   avail lists: 2:586,3:324,4:141,5:278,6:45,7:2449,9:400,10:11,11:176
- 48603 multiletter control sequences out of 65536+600000
+ 5478 words of node memory still in use:
+   30 hlist, 10 vlist, 4 rule, 40 disc, 4 local_par, 114 glue, 29 kern, 15 penal
+ty, 429 glyph, 51 attribute, 61 glue_spec, 51 attribute_list, 4 write, 10 pdf_co
+lorstack nodes
+   avail lists: 2:564,3:318,4:141,5:253,6:43,7:1942,9:386,10:12,11:137
+ 48605 multiletter control sequences out of 65536+600000
  83 fonts using 6607343 bytes
  128i,16n,116p,412b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share
@@ -1172,10 +1174,10 @@ k nodes
 type/public/fontawesome/FontAwesome.otf></usr/share/texmf-dist/fonts/opentype/pu
 blic/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lm
 roman12-regular.otf>
-Output written on medievalist-latex.pdf (3 pages, 27368 bytes).
+Output written on medievalist-latex.pdf (4 pages, 30696 bytes).
 
-PDF statistics: 144 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 7 named destinations out of 1000 (max. 1048576)
+PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 9 named destinations out of 1000 (max. 1048576)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)
 
