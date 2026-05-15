@@ -2,10 +2,13 @@
 \usetheme{Goettingen}
 %\usepackage 			[oldstyle,proportional]{ETbb}	% ET Book, oldstyle and proportional
 \usepackage{fontawesome}
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{parallel}
 
 \title{\LaTeX\ for Medieval Primary Source Handouts}
-\author{Corey Stephan, Ph.D.}
-\institute{\faHome\space{\href{https://www.coreystephan.com}{coreystephan.com}}}
+\author{Corey Stephan, Ph.D. \break \href{https://www.coreystephan.com}{coreystephan.com}}
+%\institute{\faHome\space{\href{https://www.coreystephan.com}{coreystephan.com}}}
 
 % \texttt{Sample Code}
 
@@ -34,7 +37,16 @@ The specific example will be preparing a handout for a historical conference or 
 %	\frametitle[Tutorial]{This Tutorial}
 I will walk attendees in sequence through setup, formatting, and, finally, viewing a document of this kind -- talking about different approaches that one might take depending on needs, such as placing right-to-left (notably, Semitic) and left-to-right languages side-by-side. \break
 
-I aim to inspire attendees to think about \LaTeX\ as a highly flexible tool with a wider range of professional applications than it often is understood as having. 
+I aim to inspire attendees to think about \LaTeX\ as a highly flexible tool with a wider range of professional applications than it often is understood as having.
+\end{frame}
+
+\begin{frame}
+	\frametitle[\LaTeX]{What is \LaTeX ?}
+It might be best to start to understand what \LaTeX\ \emph{is} by understanding what it is \emph{not}. \break
+
+A word processor, such as LibreOffice Writer or Microsoft Word, presents material in a (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et (WYSIWYG, ``whizzy-wig'') style. While one writes, one is simultaneously thinking about and working on formatting. \break
+
+In a typesetting language, such as \LaTeX\ (or ConTeXt or Typst, among others), one is only concerned about the \emph{structure} of what one is writing. One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, etc.), and one allows the program to compile one's writing as `code' into a tidy final document -- every time.
 \end{frame}
 
 \begin{frame}
@@ -43,7 +55,7 @@ I aim to inspire attendees to think about \LaTeX\ as a highly flexible tool with
 	\item \href{https://www.latex-project.org/}{latex-project.org}
 		\begin{itemize}
 			\item official recommendations for \LaTeX\ \textbf{distributions}
-			\item \LaTeX\ \textbf{distributions} are bundles of closely interrelated software packages, including the \TeX\ backend of \LaTeX, \LaTeX\ itself, and hundreds to thousands of packages that make using \LaTeX\ efficient and/or extend \LaTeX's functionality
+			\item \LaTeX\ \textbf{distributions} are community-maintained bundles of closely interrelated software, including the \TeX\ backend, \LaTeX\ itself, and hundreds to thousands of packages that extend \LaTeX's functionality
 		\end{itemize}
 	\item *BSD or GNU/Linux? 
 	\textbf{TeXLive}
@@ -52,11 +64,43 @@ I aim to inspire attendees to think about \LaTeX\ as a highly flexible tool with
 	\item Microsoft Windows? 
 \textbf{TeXLive} or \textbf{MiKTeX}
 \end{itemize}
-TexLive is available in the official package repositories of nearly all major *BSD and GNU/Linux operating systems.
 \end{frame}
 
 \begin{frame}
-	content...
+	TexLive is available in the official package repositories of most *BSD and GNU/Linux operating systems. To install the complete TeXLive distribution (which the \LaTeX\ project recommends for newcomers) on one of the most popular libre Unix-live operating systems, one could type: \break
+	
+	Debian/Ubuntu \break
+	\texttt{apt install texlive-full} \break
+	
+	Fedora \break
+	\texttt{dnf install texlive-scheme-full} \break
+	
+	Arch \break
+	\texttt{yay -S texlive-meta} \break
+	
+	FreeBSD \break
+	\texttt{pkg install texlive-full}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Parallel Text]{Setting Parallel Text in \LaTeX}
+TeXLive, MiKTeX, and other \LaTeX\ distrubtions ship with the package called \texttt{parallel}. For full documentation, visit: \break 
+
+\href{https://ctan.org/pkg/parallel}{ctan.org/pkg/parallel} \break
+
+To start using \texttt{parallel} in any \LaTeX\ document, simply include the following in the preamble: \break
+ 
+\verb|\usepackage{parallel}| \break
+\end{frame}
+
+\begin{frame}[fragile]
+For example, here is an abbreviated form of the preamble to this Beamer (\LaTeX\ presentation class) file with the four most important entries: \break
+\begin{lstlisting}
+	\documentclass{beamer}
+	\usetheme{Goettingen}
+	\usepackage{listings}
+	\usepackage{parallel}
+\end{lstlisting}
 \end{frame}
 
 \end{document}

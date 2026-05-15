@@ -1,0 +1,7 @@
+For example, here is an abbreviated form of the preamble to this Beamer (\LaTeX\ presentation class) file with the four most important entries: \break
+\begin{lstlisting}
+	\documentclass{beamer}
+	\usetheme{Goettingen}
+	\usepackage{listings}
+	\usepackage{parallel}
+\end{lstlisting}
