@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.6)  14 MAY 2026 12:20
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.4.6)  15 MAY 2026 13:29
  restricted system commands enabled.
 **medievalist-latex.tex
 (./medievalist-latex.tex
@@ -703,73 +703,6 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@sidebarwidth=\dimen301
 \beamer@headheight=\dimen302
 ))
-(/usr/share/texmf-dist/tex/latex/etbb/ETbb.sty
-Package: ETbb 2022/02/01 v1.052. Style file for ETbb.
-
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-
-(/usr/share/texmf-dist/tex/latex/ly1/ly1enc.def
-File: ly1enc.def 2022/06/11 v0.8 TeX 'n ANSI encoding (DPC/KB)
-)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-16.
-
-(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
-)
-(/usr/share/texmf-dist/tex/generic/iftex/ifetex.sty
-Package: ifetex 2019/10/25 v1.3 ifetex legacy package. Use iftex instead.
-)
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count356
-\xs_countb=\count357
-)
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/usr/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
-Applying: [2024-11-01] Use figureversions if present on input line 74.
-
-(/usr/share/texmf-dist/tex/latex/figureversions/figureversions.sty
-Package: figureversions 2025-04-29 v1.0.1 Figure versions
-)
-Already applied: [0000-00-00] Fall back to v1 on input line 76.
-)
-LaTeX Info: Redefining \swshape on input line 47.
-
-
-Package fontaxes Warning: Axis `shape` not supported for command
-(fontaxes)                \fa@naming@exception on line 47
-
-
-Package fontaxes Warning: Axis `shape` not supported for command
-(fontaxes)                \fa@naming@exception on line 47
-
-(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
-
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks47
-\XKV@tempa@toks=\toks48
-\XKV@tempb@toks=\toks49
-)
-\XKV@depth=\count358
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on
- input line 126.
-)
 (/usr/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
@@ -787,7 +720,7 @@ Package: expl3 2026-01-19 L3 programming layer (loader)
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count359
+\l__color_backend_stack_int=\count356
 Inserting `l3color' in `luaotfload.parse_color'.))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
@@ -796,17 +729,17 @@ Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count360
-\l__fontspec_language_int=\count361
-\l__fontspec_strnum_int=\count362
-\l__fontspec_tmp_int=\count363
-\l__fontspec_tmpa_int=\count364
-\l__fontspec_tmpb_int=\count365
-\l__fontspec_tmpc_int=\count366
-\l__fontspec_em_int=\count367
-\l__fontspec_emdef_int=\count368
-\l__fontspec_strong_int=\count369
-\l__fontspec_strongdef_int=\count370
+\l__fontspec_script_int=\count357
+\l__fontspec_language_int=\count358
+\l__fontspec_strnum_int=\count359
+\l__fontspec_tmp_int=\count360
+\l__fontspec_tmpa_int=\count361
+\l__fontspec_tmpb_int=\count362
+\l__fontspec_tmpc_int=\count363
+\l__fontspec_em_int=\count364
+\l__fontspec_emdef_int=\count365
+\l__fontspec_strong_int=\count366
+\l__fontspec_strongdef_int=\count367
 \l__fontspec_tmpa_dim=\dimen303
 \l__fontspec_tmpb_dim=\dimen304
 \l__fontspec_tmpc_dim=\dimen305
@@ -814,12 +747,7 @@ eX
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-
-LaTeX Font Warning: Font shape `TU/lmr/bold/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 3974.
-
-))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 luaotfload | cache : Lookup cache loaded from /home/corey/.texlive/texmf-var/lua
 tex-cache/generic/names/luaotfload-lookup-cache.luc.
 
@@ -848,19 +776,8 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"name:FontAwesome:mode=node;language=dflt;"
 
- (/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xeluatex.tex))
-LaTeX Font Info:    Trying to load font information for TU+ETbb-OsF on input li
-ne 12.
-LaTeX Font Info:    No file TUETbb-OsF.fd. on input line 12.
 
-
-LaTeX Font Warning: Font shape `TU/ETbb-OsF/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 12.
-
-
-LaTeX Font Warning: Font shape `TU/ETbb-OsF/regular/n' undefined
-(Font)              using `TU/ETbb-OsF/m/n' instead on input line 12.
-
+(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xeluatex.tex))
 (./medievalist-latex.aux)
 \openout1 = medievalist-latex.aux
 
@@ -883,13 +800,6 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 12.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-2.
- (/usr/share/texmf-dist/tex/latex/ly1/ly1ptm.fd
-File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
-)
 LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
@@ -928,17 +838,17 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
+\scratchcounter=\count368
 \scratchdimen=\dimen306
 \scratchbox=\box78
-\nofMPsegments=\count372
-\nofMParguments=\count373
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count374
+\nofMPsegments=\count369
+\nofMParguments=\count370
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count371
 \MPscratchDim=\dimen307
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
-\everyMPtoPDFconversion=\toks51
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
+\everyMPtoPDFconversion=\toks48
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -961,7 +871,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/ETbb-OsF/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 12.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 12.
@@ -987,7 +897,7 @@ LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/ETbb-OsF/b/n on input line 12.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
@@ -1021,8 +931,6 @@ Dictionary: translator-numbers-dictionary, Language: English
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@mv@tabular=\count377
-\c@mv@boldtabular=\count378
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1057,37 +965,26 @@ LaTeX Font Info:    Redeclaring symbol font `operators' on input line 12.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/ETbb-OsF/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 12.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/ETbb-OsF/m/n on input line 12.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `tabular' on input line 12.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `tabular'
-(Font)                  OT1/cmss/m/n --> TU/ETbb-OsF/m/n on input line 12.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `boldtabular' on input line
- 12.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `boldtabular
-'
-(Font)                  OT1/cmss/b/n --> TU/ETbb-OsF/m/n on input line 12.
+(Font)                  OT1/cmss/b/n --> TU/lmr/m/n on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/ETbb-OsF/m/n --> TU/ETbb-OsF/m/n on input line 12.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 12.
 LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/lmss/m/it --> TU/ETbb-OsF/m/it on input line 12.
+(Font)                  TU/lmss/m/it --> TU/lmr/m/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/lmss/b/n --> TU/ETbb-OsF/b/n on input line 12.
+(Font)                  TU/lmss/b/n --> TU/lmr/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/ETbb-OsF/m/n --> TU/ETbb-OsF/b/n on input line 12.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/b/it --> TU/ETbb-OsF/b/it on input line 12.
+(Font)                  TU/lmss/b/it --> TU/lmr/b/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
@@ -1111,12 +1008,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 15.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 15.
-
-
-LaTeX Font Warning: Font shape `TU/FontAwesome(0)/regular/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 15.
-
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
@@ -1133,6 +1025,10 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 
 ] [4
 
+] [5
+
+] [6
+
 ]
 \tf@nav=\write6
 
@@ -1143,41 +1039,36 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 \tf@snm=\write8
 
 \openout8 = medievalist-latex.snm
-
-(./medievalist-latex.aux)
+ (./medievalist-latex.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `medievalist-latex.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26989 strings out of 476076
+ 25860 strings out of 476076
  100000,953878 words of node,token memory allocated
- 5478 words of node memory still in use:
-   30 hlist, 10 vlist, 4 rule, 40 disc, 4 local_par, 114 glue, 29 kern, 15 penal
-ty, 429 glyph, 51 attribute, 61 glue_spec, 51 attribute_list, 4 write, 10 pdf_co
-lorstack nodes
-   avail lists: 2:564,3:318,4:141,5:253,6:43,7:1942,9:386,10:12,11:137
- 48605 multiletter control sequences out of 65536+600000
- 83 fonts using 6607343 bytes
- 128i,16n,116p,412b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share
-/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf-dist
-/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf-dist/fonts/open
-type/public/fontawesome/FontAwesome.otf></usr/share/texmf-dist/fonts/opentype/pu
-blic/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lm
-roman12-regular.otf>
-Output written on medievalist-latex.pdf (4 pages, 30696 bytes).
+ 931 words of node memory still in use:
+   13 hlist, 6 vlist, 2 rule, 1 disc, 1 local_par, 14 glue, 4 kern, 8 penalty, 1
+2 glyph, 25 attribute, 61 glue_spec, 25 attribute_list, 4 write, 4 pdf_colorstac
+k nodes
+   avail lists: 2:784,3:325,4:203,5:319,6:59,7:2552,8:1,9:493,10:13,11:179
+ 47550 multiletter control sequences out of 65536+600000
+ 84 fonts using 6785799 bytes
+ 128i,16n,116p,412b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/te
+xmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fon
+ts/opentype/public/fontawesome/FontAwesome.otf></usr/share/texmf-dist/fonts/open
+type/public/lm/lmsans10-regular.otf></usr/share/texmf-dist/fonts/opentype/public
+/lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb>
+Output written on medievalist-latex.pdf (6 pages, 39321 bytes).
 
-PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 9 named destinations out of 1000 (max. 1048576)
+PDF statistics: 223 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 1048576)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)
 
