@@ -1,7 +1,30 @@
-For example, here is an abbreviated form of the preamble to this Beamer (\LaTeX\ presentation class) file with the four most important entries: \break
-\begin{lstlisting}
-	\documentclass{beamer}
-	\usetheme{Goettingen}
-	\usepackage{listings}
-	\usepackage{parallel}
-\end{lstlisting}
+
+Then, when using one of the `other' declared languages, toggle it when needed, either as
+	
+{\scriptsize \begin{lstlisting}
+	\begin{greek}
+		<greek text>
+		...
+	\end{greek}
+\end{lstlisting}}
+	
+or, for single lines, as
+	
+{\scriptsize \begin{lstlisting}
+	\textgreek{<greektext>}
+\end{lstlisting}}
+
+The former might look like this:
+
+{\scriptsize \begin{greek}
+ἐν ἀρχῇ ἦν ὁ λόγος, \\
+καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
+καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek}}
+
+\break
+
+The latter might look like this:
+
+{\scriptsize \textgreek{ὁ λόγος}}
+	

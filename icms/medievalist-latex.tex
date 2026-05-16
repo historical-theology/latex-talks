@@ -5,6 +5,15 @@
 \usepackage{verbatim}
 \usepackage{listings}
 \usepackage{parallel}
+%\usepackage{reledmac}
+%\usepackage{reledpar}
+\usepackage{polyglossia}
+
+\usepackage{fontspec}
+\setmainfont{FreeSerif}
+\setsansfont{FreeSans}
+\setmonofont{FreeMono}
+
 
 \title{\LaTeX\ for Medieval Primary Source Handouts}
 \author{Corey Stephan, Ph.D. \break \href{https://www.coreystephan.com}{coreystephan.com}}
@@ -13,6 +22,9 @@
 % \texttt{Sample Code}
 
 \begin{document}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+	
 \begin{frame}[plain]
     \maketitle
 \end{frame}
@@ -21,23 +33,18 @@
     \frametitle[Everything]{\LaTeX\ for Everything}
 The world's best established software system for typesetting and document formatting, \LaTeX\ has been popular throughout the mathematical and physical sciences for decades. The utility of \LaTeX\ for scholars in humanities disciplines, however, tends to be overlooked. \break
 
-\LaTeX\ can be used for typesetting in (almost) all instances in which a scholar of humanities needs to present our materials elegantly. \break
+\LaTeX\ can be used for typesetting in most instances in which a scholar of humanities needs to present our materials. \break
 
-I have prepared these slides in \LaTeX\ -- more quickly and with less frustration than would have been possible in graphical presentation program (e.g. LibreOffice Present).
+I prepared these slides in \LaTeX\ -- with less frustration than would have been possible in graphical presentation program (e.g. LibreOffice Present) -- as 1 file: \break
+
+\small{\href{https://github.com/historical-theology/latex-talks/blob/main/icms/medievalist-latex.tex}{github.com/historical-theology/latex-talks/blog/main/icms/medievalist-latex.tex}}
 \end{frame}
 
 \begin{frame}
 	\frametitle[Tutorial]{This Tutorial}
-In this tutorial, I will introduce attendees to the use of LaTeX for a common task in medievalist scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as primary texts with our original translations. \break
+In this tutorial, I will introduce attendees to \LaTeX, as well as to the use of \LaTeX\ for a common task in medievalist scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as primary texts with our original translations. \break
 
-The specific example will be preparing a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. \break
-\end{frame}
-
-\begin{frame}
-%	\frametitle[Tutorial]{This Tutorial}
-I will walk attendees in sequence through setup, formatting, and, finally, viewing a document of this kind -- talking about different approaches that one might take depending on needs, such as placing right-to-left (notably, Semitic) and left-to-right languages side-by-side. \break
-
-I aim to inspire attendees to think about \LaTeX\ as a highly flexible tool with a wider range of professional applications than it often is understood as having.
+The specific `thought experiment' will that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. \break
 \end{frame}
 
 \begin{frame}
@@ -83,8 +90,10 @@ In a typesetting language, such as \LaTeX\ (or ConTeXt or Typst, among others), 
 \end{frame}
 
 \begin{frame}[fragile]
-	\frametitle[Parallel Text]{Setting Parallel Text in \LaTeX}
-TeXLive, MiKTeX, and other \LaTeX\ distrubtions ship with the package called \texttt{parallel}. For full documentation, visit: \break 
+	\frametitle[Simple Parallel Text]{Simple Setting of Parallel Text in \LaTeX}
+There are many ways to set parallel text in \LaTeX. \break
+
+The \emph{simplest} is to use the community package called \texttt{parallel}, which is included in TeXLive, MiKTeX, and other \LaTeX\ distrubtions. For full documentation, visit: \break 
 
 \href{https://ctan.org/pkg/parallel}{ctan.org/pkg/parallel} \break
 
@@ -94,13 +103,142 @@ To start using \texttt{parallel} in any \LaTeX\ document, simply include the fol
 \end{frame}
 
 \begin{frame}[fragile]
-For example, here is an abbreviated form of the preamble to this Beamer (\LaTeX\ presentation class) file with the four most important entries: \break
+Here is an abbreviated form of the preamble to this Beamer (\LaTeX\ presentation class) file with the most important entries, including \texttt{parallel}: \break
+
+{\scriptsize \begin{lstlisting}
+\documentclass{beamer}
+\usetheme{Goettingen}
+
+\usepackage{listings}
+\usepackage{parallel}
+
+\title{\LaTeX\ for Medieval Primary Source Handouts}
+\author{Corey Stephan, Ph.D. \break 
+\href{https://www.coreystephan.com}{coreystephan.com}}
+
+\begin{document}
+\end{lstlisting}}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Using parallel]{Using the \texttt{parallel} package}
+
+Basic Format
+
+{\scriptsize \begin{lstlisting}
+\begin{Parallel}{}<left adjustment>}{<right adjustment>}
+		\ParallelLText{<left text row 1>}
+		\ParallelRText{<right text row 1>}
+			\ParallelPar
+		\ParallelLText{<left text row 2>}
+	...	
+\end{Parallel}	
+\end{lstlisting}}
+
+Example
+	
+{\scriptsize \begin{lstlisting}
+\begin{Parallel}{0mm}{0mm}
+	\ParallelLText{Ave Maria,}
+	\ParallelRText{Hail Mary,}
+		\ParallelPar
+	\ParallelLText{gratia plena,}
+	\ParallelRText{full of grace,}
+\end{Parallel}	
+		\end{lstlisting}}
+
+\begin{Parallel}{0mm}{0mm}
+\texttt{\ParallelLText{Ave Maria,}
+\ParallelRText{Hail Mary,}
+\ParallelPar
+\ParallelLText{gratia plena,}
+\ParallelRText{full of grace,}
+}\end{Parallel}	
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Advanced Parallel Text]{Advanced Setting of Parallel Text in \LaTeX}
+	
+For \emph{advanced} scholarly setting of parallel text in \LaTeX, one ought to learn the 2 interconnected and frequently updated community packages \texttt{reledpar} and \texttt{reledmac}, which are bundled with TeXLive and other \LaTeX\ distributions. \break
+
+These 2 packages are specifically designed for long-form academic parallel texts, and they are meant to replace older methods of academic parallel text preparation in \LaTeX\ that you might find in Web searches. \break
+
+For full documentation, visit: \break
+\href{https://ctan.org/pkg/reledpar}{ctan.org/pkg/reledpar} \break
+\href{https://ctan.org/pkg/reledmac}{ctan.org/pkg/reledmac} \break
+
+Remember them in the preamble to your document:
+
 \begin{lstlisting}
-	\documentclass{beamer}
-	\usetheme{Goettingen}
-	\usepackage{listings}
-	\usepackage{parallel}
+\usepackage{reledpar}
+\usepackage{reledmac}
 \end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Non-Latin Text]{Setting of Non-Latin Text in \LaTeX}
+
+The most important package for handling text outside of Latin alphabets is the community package \texttt{polyglossia}, which is (as you probably have guessed) included in TeXLive and other \LaTeX\ distributions. \break
+
+This continuously updated package is meant to replace older methods of non-Latin text entry that you might find in Web searches. \break
+
+For full documentation, visit: \break
+\href{https://www.ctan.org/pkg/polyglossia}{ctan.org/pkg/polyglossia} \break
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Using polyglossia]{Starting a Project with \texttt{polyglossia}}
+
+Remember the package in the preamble:
+
+\begin{lstlisting}
+\usepackage{polyglossia}
+\end{lstlisting}
+
+Then, \emph{after} the beginning of the document but \emph{before} actual type, declare the languages and their variants. For example, here is this .tex file's polyglossia declarations:
+
+\begin{lstlisting}
+\begin{document}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]	
+	
+Then, when using one of the `other' declared languages, toggle it when needed, either as
+	
+{\scriptsize \begin{lstlisting}
+	\begin{greek}
+		<greek text>
+		...
+	\end{greek}
+\end{lstlisting}}
+	
+or, for single lines, as
+	
+{\scriptsize \begin{lstlisting}
+	\textgreek{<greektext>}
+\end{lstlisting}}
+
+The former might look like this:
+
+{\scriptsize \begin{greek}
+ἐν ἀρχῇ ἦν ὁ λόγος, \\
+καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
+καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek}}
+
+\break
+
+The latter might look like this:
+
+{\scriptsize \textgreek{ὁ λόγος}}
+	
 \end{frame}
 
 \end{document}
