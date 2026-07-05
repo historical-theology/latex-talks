@@ -1,0 +1,353 @@
+% Main Document Settings
+\documentclass{beamer}
+\usetheme{Goettingen}
+
+% Enable polyglossia and alter default fonts to display polytonic Greek
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\usepackage[p, osf]{cochineal} % proportional and oldstyle Cochineal typeface
+\setmainfont{cochineal}
+\setsansfont{cochineal}
+\setmonofont{cochineal}
+% \setmainfont{FreeSerif}
+% \setsansfont{FreeSerif}
+% \setmonofont{FreeMono}
+
+% Allow fontawesome icons, if desired
+\usepackage{fontawesome}
+
+% Allow code quotations
+\usepackage{listings}
+
+% Demonstrational packages for parallel typesetting
+\usepackage{parallel}
+%\usepackage{reledmac}
+%\usepackage{reledpar}
+
+\title{\LaTeX\ for Elegant Humanities Handouts in Conferences and Classrooms }
+\author{Corey Stephan, Ph.D. \break \href{https://www.coreystephan.com}{coreystephan.com}}
+
+\begin{document}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+	
+\begin{frame}[plain]
+    \maketitle
+\end{frame}
+
+\begin{frame}
+    \frametitle[Everything]{\LaTeX\ for Everything}
+The world's best established software system for typesetting and document formatting, \LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \break
+
+The utility of \LaTeX\ for scholars in humanities disciplines, however, tends to be overlooked. \break
+
+\LaTeX\ can be used for typesetting in most instances in which a scholar of humanities needs to present our materials. \break
+
+I prepared these slides in \LaTeX\ -- with less frustration than would have been possible in graphical presentation program (e.g. LibreOffice Present) -- as 1 file: \break
+
+\small{\href{https://github.com/historical-theology/latex-talks/blob/main/icms/medievalist-latex.tex}{github.com/historical-theology/latex-talks/blog/main/icms/medievalist-latex.tex}}
+\end{frame}
+
+\begin{frame}
+	\frametitle[Tutorial]{This Tutorial}
+In this tutorial, I will introduce attendees to \LaTeX, as well as to the use of \LaTeX\ for a common task in medievalist scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as primary texts with our original translations. \break
+
+The specific `thought experiment' will be that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. \break
+\end{frame}
+
+\begin{frame}
+	\frametitle[\LaTeX]{What is \LaTeX ?}
+It might be best to start to understand what \LaTeX\ \emph{is} by understanding what it is \emph{not}. \break
+
+A word processor, such as LibreOffice Writer or Microsoft Word, presents material in a (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et (WYSIWYG, ``whizzy-wig'') style. While one writes, one is simultaneously thinking about and working on formatting. \break
+
+In a typesetting language, such as \LaTeX\ (or ConTeXt or Typst, among others), one is only concerned about the \emph{structure} of what one is writing. One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, etc.), and one allows the program to compile one's writing as `code' into a tidy final document -- every time.
+\end{frame}
+
+\begin{frame}
+	\frametitle[Starting \LaTeX]{Getting Started with \LaTeX\ in GNU/Linux}
+\begin{itemize}
+	\item \href{https://www.latex-project.org/}{latex-project.org}
+		\begin{itemize}
+			\item official recommendations for \LaTeX\ \textbf{distributions}
+			\item \LaTeX\ \textbf{distributions} are community-maintained bundles of closely interrelated software, including the \TeX\ backend, \LaTeX\ itself, and hundreds to thousands of packages that extend \LaTeX's functionality
+		\end{itemize}
+	\item *BSD or GNU/Linux? 
+	\textbf{TeXLive}
+	\item MacOS? 
+	\textbf{MacTeX}
+	\item Microsoft Windows? 
+\textbf{TeXLive} or \textbf{MiKTeX}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+	TexLive is available in the official package repositories of most *BSD and GNU/Linux operating systems. To install the complete TeXLive distribution (which the \LaTeX\ project recommends for newcomers) on one of the most popular libre Unix-live operating systems, one could type: \break
+	
+	Debian/Ubuntu \break
+	\texttt{apt install texlive-full} \break
+	
+	Fedora \break
+	\texttt{dnf install texlive-scheme-full} \break
+	
+	Arch \break
+	\texttt{yay -S texlive-meta} \break
+	
+	FreeBSD \break
+	\texttt{pkg install texlive-full}
+\end{frame}
+
+\begin{frame}
+	
+	2 community-built, libre guidebooks \break
+	
+	I recommend \break \emph{The Not So Short Introduction to \LaTeX} \break
+	\href{https://github.com/oetiker/lshort}{github.com/oetiker/lshort} \break
+	
+	Dr. Hayes helpfully recommends \break \emph{Modern \LaTeX} \break
+	\href{https://github.com/mrkline/modern-latex}{github.com/mrkline/modern-latex}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Simple Parallel Text]{Simple Setting of Parallel Text in \LaTeX}
+There are many ways to set parallel text in \LaTeX. \break
+
+The \emph{simplest} is to use the community package called \texttt{parallel}, which is included in TeXLive, MiKTeX, and other \LaTeX\ distrubtions. For full documentation, visit: \break 
+
+\href{https://ctan.org/pkg/parallel}{ctan.org/pkg/parallel} \break
+
+To start using \texttt{parallel} in any \LaTeX\ document, simply include the following in the preamble: \break
+ 
+\verb|\usepackage{parallel}| \break
+\end{frame}
+
+\begin{frame}[fragile]
+Here is an abbreviated form of the preamble to this Beamer (\LaTeX\ presentation class) file with the most important entries, including \texttt{parallel}: \break
+
+{\scriptsize \begin{lstlisting}
+\documentclass{beamer}
+\usetheme{Goettingen}
+
+\usepackage{listings}
+\usepackage{parallel}
+
+\title{\LaTeX\ for Medieval Primary Source Handouts}
+\author{Corey Stephan, Ph.D. \break 
+\href{https://www.coreystephan.com}{coreystephan.com}}
+
+\begin{document}
+\end{lstlisting}}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Using parallel]{Using the \texttt{parallel} package}
+
+Basic Format
+
+{\scriptsize \begin{lstlisting}
+\begin{Parallel}{}<left adjustment>}{<right adjustment>}
+		\ParallelLText{<left text row 1>}
+		\ParallelRText{<right text row 1>}
+			\ParallelPar
+		\ParallelLText{<left text row 2>}
+	...	
+\end{Parallel}	
+\end{lstlisting}}
+
+Example
+	
+{\scriptsize \begin{lstlisting}
+\begin{Parallel}{0mm}{0mm}
+	\ParallelLText{Ave Maria,}
+	\ParallelRText{Hail Mary,}
+		\ParallelPar
+	\ParallelLText{gratia plena,}
+	\ParallelRText{full of grace,}
+\end{Parallel}	
+		\end{lstlisting}}
+
+\begin{Parallel}{0mm}{0mm}
+\ParallelLText{Ave Maria,}
+\ParallelRText{Hail Mary,}
+\ParallelPar
+\ParallelLText{gratia plena,}
+\ParallelRText{full of grace,}
+\end{Parallel}	
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Advanced Parallel Text]{Advanced Setting of Parallel Text in \LaTeX}
+	
+For \emph{advanced} scholarly setting of parallel text in \LaTeX, one ought to learn the 2 interconnected and frequently updated community packages \texttt{reledpar} (for parallel typesetting specifically) and \texttt{reledmac} (for typesetting academic editions in general), which are bundled with TeXLive and other \LaTeX\ distributions. \break
+
+These 2 packages are specifically designed for long-form academic parallel texts, and they are meant to replace older methods of academic parallel text preparation in \LaTeX\ that you might find in Web searches. \break
+
+For full documentation, visit: \break
+\href{https://ctan.org/pkg/reledpar}{ctan.org/pkg/reledpar} \break
+\href{https://ctan.org/pkg/reledmac}{ctan.org/pkg/reledmac} \break
+
+Remember them in the preamble to your document:
+
+{\scriptsize \begin{lstlisting}
+\usepackage{reledpar}
+\usepackage{reledmac}
+\end{lstlisting}}
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Non-Latin Text]{Setting of Non-Latin Text in \LaTeX}
+
+The most important package for handling text outside of Latin alphabets is the community package \texttt{polyglossia}, which is (as you probably have guessed) included in TeXLive and other \LaTeX\ distributions. \break
+
+This fresh and continuously updated package is meant to replace older methods of non-Latin text entry that you might find in Web searches, notably \texttt{babel}, which ought to be set aside in 2026 (except in legacy projects that already rely on it). \break
+
+For full documentation, visit: \break
+\href{https://www.ctan.org/pkg/polyglossia}{ctan.org/pkg/polyglossia} \break
+
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Using polyglossia]{Starting a Project with \texttt{polyglossia}}
+
+Remember the package in the preamble:
+
+\begin{lstlisting}
+\usepackage{polyglossia}
+\end{lstlisting} 
+
+\vspace{1em}
+
+Then, \emph{after} the beginning of the document but \emph{before} actual type, declare the languages and their variants. For example, here is this .tex file's polyglossia declarations:
+
+\begin{lstlisting}
+\begin{document}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]	
+	
+Then, when using one of the `other' declared languages, toggle it when needed, either for long excerpts as
+	
+{\scriptsize \begin{lstlisting}
+	\begin{greek}
+		<greek text>
+		...
+	\end{greek}
+\end{lstlisting}}
+	
+or for single lines as
+	
+{\scriptsize \begin{lstlisting}
+	\text<language>{<text in language>}
+	e.g.
+	\textgreek{<Greek text>}
+\end{lstlisting}} \break
+
+The former might be used to set apart long quotations, e.g. \break
+
+{\scriptsize \begin{greek}
+ἐν ἀρχῇ ἦν ὁ λόγος, \\
+καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
+καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek}}
+
+\break \vspace{1em}
+
+while latter might be used to insert a keyword in another language, e.g. {\textgreek{ὁ λόγος}}, in the midst of prose.
+	
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle[Combining parallel and polyglossia]{Combining \texttt{parallel} and \texttt{polyglossia}}
+
+{\small The simplest way of showing multilingual text in parallel is} \break
+
+{\scriptsize \begin{lstlisting}
+\begin{Parallel}{0mm}{0mm}
+	\text<language>{\ParallelLText{<ancient text 1>}}
+	\ParallelRText{<modern text>}
+		\ParallelPar
+	\text<language>{\ParallelLText{<ancient text 2>}}
+	\ParallelRText{<modern text 2>}
+\end{Parallel}	
+\end{lstlisting}} \break
+
+\vspace{1em}
+
+{\small but since this is tedious for more than a few lines, I remind everyone of \texttt{reledpar} and \texttt{reledmac} for longer and/or more complicated parallel text displays.} \break
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+{\small Canon in Honor of Thomas Aquinas, Ode 3}\footnote{Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \emph{Archivum Fratrum Praedicatorum} 12 (1934): 145--85 at 155--58.} \\
+{\small Translated by Corey Stephan, Ph.D.} \break
+
+{\scriptsize \begin{Parallel}{0mm}{0mm}
+	\textgreek{\ParallelLText{Νῦν συγχορεύεις ἀληθῶς}}
+	\ParallelRText{Now, truly, you celebrate together}
+		\ParallelPar
+	\textgreek{\ParallelLText{σὺν τοῖς λοιποῖς θεολόγοις}}
+	\ParallelRText{with the rest of the theologians}
+		\ParallelPar
+	\textgreek{\ParallelLText{καὶ τοῖς ἄλλοις θεολήπτοις ἀνδράσι,}}
+	\ParallelRText{and the other divinely inspired men}
+		\ParallelPar
+	\ParallelRText{with the rest of the theologians}
+	\textgreek{\ParallelLText{περὶ τὸν θρόνον Χριστοῦ}}
+	\ParallelRText{around the throne of Christ,}
+		\ParallelPar
+	\textgreek{\ParallelLText{τὸν ἱερὸν ἐξᾴδοντες}}
+	\ParallelRText{singing the sacred}
+		\ParallelPar
+	\textgreek{\ParallelLText{καὶ τρισάγιον ὕμνον}}
+	\ParallelRText{and Thrice-Holy Hymn}
+		\ParallelPar
+	\textgreek{\ParallelLText{σὺν ταῖς ἁγίαις δυνάμεσιν.}}
+	\ParallelRText{with the holy powers.}
+		\ParallelPar
+	\vspace{1em}
+	\textgreek{\ParallelLText{Ἔνθα πατέρων ὁ χορὸς}}
+	\ParallelRText{Where there is the chorus of Fathers}
+		\ParallelPar
+	\textgreek{\ParallelLText{καὶ ἱερῶν θεολόγων}}
+	\ParallelRText{and holy theologians,}
+		\ParallelPar
+	\textgreek{\ParallelLText{ὡς ὑψίνους καὶ λεπτὸς θεόλογος}}
+	\ParallelRText{as a high-minded and subtle theologian}
+		\ParallelPar
+	\textgreek{\ParallelLText{κατεσκήνωσας, Θωμᾶ,}}
+	\ParallelRText{you do abide, Thomas,}
+		\ParallelPar
+	\textgreek{\ParallelLText{σὺν τούτοις αὐλιζόμενος,}}
+	\ParallelRText{dwelling with them,}
+		\ParallelPar
+	\textgreek{\ParallelLText{θεολογῶν ἀπαύστως}}
+	\ParallelRText{unceasingly theologizing,}
+		\ParallelPar
+	\textgreek{\ParallelLText{τριάδα, πάτερ, τὴν ἄκτιστον.}}
+	\ParallelRText{O Father, about the Uncreated Trinity.}
+		\ParallelPar
+\end{Parallel}}	
+
+\end{frame}
+
+\begin{frame}
+	\frametitle[Other \LaTeX\ software]{Other \LaTeX\ Tools for Scholars}
+
+\textbf{BibLaTeX} -- comprehensive citation and bibliography management, capable of being interlinked with a variety of citation managers (Zotero, JabRef, etc.) \break
+
+\textbf{TeXStudio} and other graphical front-ends -- LaTeX can be written in any plain text editor, but a designated LaTeX writing environment improves efficiency and helps correct code errors \break
+
+Designated typeface packages, e.g. \textbf{Serto} for Syriac \break
+
+\textbf{microtype} for small adjustments to type, such as improved automatic hyphenation (a personal favorite)
+
+\end{frame}
+
+\end{document}
