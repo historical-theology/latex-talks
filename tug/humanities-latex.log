@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  5 JUL 2026 11:58
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  5 JUL 2026 12:36
  restricted system commands enabled.
 **humanities-latex.tex
 (./humanities-latex.tex
@@ -1275,6 +1275,9 @@ Package: parallel 2003/04/13, setting two texts parallel (me)
 \ParallelMaxFN=\count388
 \ParallelFNNumMode=\count389
 )
+(/usr/share/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2025-11-11 v1.16 A logo collection with bookmark support (HO)
+)
 
 Package fontspec Info: 
 (fontspec)             Cochineal-Roman scale = 1.
@@ -1374,30 +1377,29 @@ talicFont={},SmallCapsFont={},Scale
 (fontspec)             <->s*[1]"[Cochineal-Roman.otf]:mode=node;script=latn;lan
 guage=dflt;+tlig;"
 
-
-(./humanities-latex.aux)
+ (./humanities-latex.aux)
 \openout1 = humanities-latex.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1407,12 +1409,12 @@ LaTeX Font Info:    ... okay on input line 30.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(14.22636pt, 278.83713pt, 71.13187pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=278.83713pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(14.22636pt, 369.88585pt, 71.13187pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=369.88585pt
+* \textheight=227.62207pt
 * \oddsidemargin=-58.04362pt
 * \evensidemargin=-58.04362pt
 * \topmargin=-72.26999pt
@@ -1455,63 +1457,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (./humanities-latex.out) (./humanities-latex.out)
 \@outlinefile=\write5
 
 \openout5 = humanities-latex.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 35.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Cochineal(4)/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/cmss/m/n --> TU/Cochineal(4)/m/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/cochineal(0)/b/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> TU/cochineal(0)/b/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/cochineal(0)/b/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/cmr/bx/n --> TU/cochineal(0)/b/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/cochineal(0)/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> TU/cochineal(0)/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/cochineal(0)/m/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> TU/cochineal(0)/m/n on input line 35.
 
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/cochineal(0)/m/it on input line 30.
+(Font)                  OT1/cmr/m/it --> TU/cochineal(0)/m/it on input line 35.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/cochineal(0)/m/it on input line 30
+(Font)                  OT1/cmr/bx/it --> TU/cochineal(0)/m/it on input line 35
 .
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/cochineal(1)/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/cochineal(1)/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/cochineal(1)/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/cochineal(1)/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/cochineal(0)/m/n --> TU/cochineal(0)/b/n on input li
-ne 30.
+ne 35.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/cochineal(0)/m/it --> TU/cochineal(0)/b/it on input 
-line 30.
+line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/Cochineal(4)/b/n on input line 30.
+(Font)                  OT1/cmss/b/n --> TU/Cochineal(4)/b/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/cochineal(0)/b/n --> TU/cochineal(0)/b/n on input li
-ne 30.
+ne 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/cochineal(0)/m/n --> TU/cochineal(0)/b/n on input li
-ne 30.
+ne 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/cochineal(0)/m/it --> TU/cochineal(0)/b/it on input 
-line 30.
+line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/cochineal(1)/m/n --> TU/cochineal(1)/b/n on input li
-ne 30.
+ne 35.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -1590,14 +1592,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 \@attic@num=\count397
 )
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 32
+t line 37
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 32
+input line 37
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1605,14 +1607,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 32
+t line 37
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 32
+on input line 37
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1620,26 +1622,26 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 32
+t line 37
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 32
+on input line 37
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1656,12 +1658,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [6
 
-] [7
-
 ]
 \openout4 = humanities-latex.vrb
  (./humanities-latex.vrb)
-[8
+[7
+
+]
+\openout4 = humanities-latex.vrb
+ (./humanities-latex.vrb) [8
 
 ]
 \openout4 = humanities-latex.vrb
@@ -1669,29 +1673,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 \openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [10
+
+(./humanities-latex.vrb) [10
+
+]
+\openout4 = humanities-latex.vrb
+ (./humanities-latex.vrb) [11
 
 ]
 \openout4 = humanities-latex.vrb
 
-(./humanities-latex.vrb)
-Overfull \vbox (1.42015pt too high) detected at line 197
- []
-
-[11
+(./humanities-latex.vrb) [12
 
 ]
 \openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [12
-
-]
-\openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [13
-
-]
-\openout4 = humanities-latex.vrb
-
-(./humanities-latex.vrb
+ (./humanities-latex.vrb
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
 t line 22
 
@@ -1911,11 +1907,11 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
-) [14
+) [13
 
 ]
 \openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [15
+ (./humanities-latex.vrb) [14
 
 ]
 \openout4 = humanities-latex.vrb
@@ -3220,9 +3216,9 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
-) [16
+) [15
 
-] [17
+] [16
 
 ]
 \tf@nav=\write6
@@ -3244,24 +3240,23 @@ Package rerunfilecheck Info: File `humanities-latex.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29326 strings out of 476076
+ 29623 strings out of 476076
  100000,1144653 words of node,token memory allocated
- 5597 words of node memory still in use:
-   35 hlist, 10 vlist, 4 rule, 1 disc, 6 local_par, 130 glue, 61 kern, 19 penalt
-y, 452 glyph, 61 attribute, 61 glue_spec, 61 attribute_list, 4 write, 1 pdf_acti
-on, 10 pdf_colorstack nodes
-   avail lists: 2:1102,3:384,4:197,5:513,6:162,7:3412,8:1,9:1732,10:15,11:166
- 50828 multiletter control sequences out of 65536+600000
- 100 fonts using 13911495 bytes
+ 5571 words of node memory still in use:
+   34 hlist, 10 vlist, 4 rule, 1 disc, 6 local_par, 129 glue, 61 kern, 19 penalt
+y, 452 glyph, 60 attribute, 61 glue_spec, 60 attribute_list, 4 write, 10 pdf_col
+orstack nodes
+   avail lists: 2:1106,3:387,4:141,5:513,6:165,7:3422,9:1736,10:18,11:158
+ 51122 multiletter control sequences out of 65536+600000
+ 99 fonts using 13652927 bytes
  128i,16n,116p,435b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/
-share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/shar
-e/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on humanities-latex.pdf (17 pages, 77211 bytes).
+</usr/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></us
+r/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/shar
+e/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
+Output written on humanities-latex.pdf (16 pages, 67271 bytes).
 
-PDF statistics: 537 PDF objects out of 1000 (max. 8388607)
- 496 compressed objects within 5 object streams
- 35 named destinations out of 1000 (max. 1048576)
+PDF statistics: 503 PDF objects out of 1000 (max. 8388607)
+ 464 compressed objects within 5 object streams
+ 33 named destinations out of 1000 (max. 1048576)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)
 

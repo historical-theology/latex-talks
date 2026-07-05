@@ -1,6 +1,8 @@
 % Main Document Settings
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 \usetheme{Goettingen}
+
+\date{July 19, 2026}
 
 % Enable polyglossia and alter default fonts to display polytonic Greek
 \usepackage{polyglossia}
@@ -24,7 +26,10 @@
 %\usepackage{reledmac}
 %\usepackage{reledpar}
 
-\title{\LaTeX\ for Elegant Humanities Handouts in Conferences and Classrooms }
+% Allows ConTeXt and other logos
+\usepackage{hologo}
+
+\title{\LaTeX\ for Elegant Humanities Handouts \\ in Conferences and Classrooms }
 \author{Corey Stephan, Ph.D. \break \href{https://www.coreystephan.com}{coreystephan.com}}
 
 \begin{document}
@@ -41,72 +46,57 @@ The world's best established software system for typesetting and document format
 
 The utility of \LaTeX\ for scholars in humanities disciplines, however, tends to be overlooked. \break
 
-\LaTeX\ can be used for typesetting in most instances in which a scholar of humanities needs to present our materials. \break
+\LaTeX\ can be used for typesetting in most instances in which a scholar of humanities needs to present her materials. \break
 
-I prepared these slides in \LaTeX\ -- with less frustration than would have been possible in graphical presentation program (e.g. LibreOffice Present) -- as 1 file: \break
+I prepared these slides in \LaTeX\ -- with less frustration than would have been possible in graphical presentation program -- as 1 file:
 
-\small{\href{https://github.com/historical-theology/latex-talks/blob/main/icms/medievalist-latex.tex}{github.com/historical-theology/latex-talks/blog/main/icms/medievalist-latex.tex}}
+\begin{center}
+{\scriptsize 	{\href{https://github.com/historical-theology/latex-talks/blob/main/tug/humanities-latex.tex}{github.com/historical-theology/latex-talks/blob/main/tug/humanities-latex.tex}}}
+\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle[Tutorial]{This Tutorial}
-In this tutorial, I will introduce attendees to \LaTeX, as well as to the use of \LaTeX\ for a common task in medievalist scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as primary texts with our original translations. \break
+In this tutorial, I will introduce attendees to the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as primary texts with our original translations. \break
 
 The specific `thought experiment' will be that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. \break
 \end{frame}
 
 \begin{frame}
-	\frametitle[\LaTeX]{What is \LaTeX ?}
-It might be best to start to understand what \LaTeX\ \emph{is} by understanding what it is \emph{not}. \break
+	\frametitle[\LaTeX]{As a humanities scholar, why choose \LaTeX ? {\scriptsize (1/2)} }
 
-A word processor, such as LibreOffice Writer or Microsoft Word, presents material in a (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et (WYSIWYG, ``whizzy-wig'') style. While one writes, one is simultaneously thinking about and working on formatting. \break
+In historical disciplines, editors expect us to prepare our materials for publications with bug-for-bug Microsoft Word compatibility for back-and-forth markup. In practice, this expectation requires use to use word processors, such as (my favorite option) LibreOffice Writer. \break
 
-In a typesetting language, such as \LaTeX\ (or ConTeXt or Typst, among others), one is only concerned about the \emph{structure} of what one is writing. One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, etc.), and one allows the program to compile one's writing as `code' into a tidy final document -- every time.
+A \textbf{word processor} presents material in a \textbf{W}hat \textbf{Y}ou \textbf{S}ee \textbf{I}s \textbf{W}hat \textbf{Y}ou \textbf{G}et (\textbf{WYSIWYG}, ``whizzy-wig'') style. While one writes, one is simultaneously thinking about and working on formatting.
+
 \end{frame}
 
 \begin{frame}
-	\frametitle[Starting \LaTeX]{Getting Started with \LaTeX\ in GNU/Linux}
-\begin{itemize}
-	\item \href{https://www.latex-project.org/}{latex-project.org}
-		\begin{itemize}
-			\item official recommendations for \LaTeX\ \textbf{distributions}
-			\item \LaTeX\ \textbf{distributions} are community-maintained bundles of closely interrelated software, including the \TeX\ backend, \LaTeX\ itself, and hundreds to thousands of packages that extend \LaTeX's functionality
-		\end{itemize}
-	\item *BSD or GNU/Linux? 
-	\textbf{TeXLive}
-	\item MacOS? 
-	\textbf{MacTeX}
-	\item Microsoft Windows? 
-\textbf{TeXLive} or \textbf{MiKTeX}
-\end{itemize}
+	\frametitle[\LaTeX]{As a humanities scholar, why choose \LaTeX ? {\scriptsize (2/2)} }
+	
+In a \textbf{typesetting language}, such as \LaTeX\ (or \hologo{ConTeXt}), one is only concerned about the \emph{structure} of what one is writing. \break
+
+One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, etc.), and one allows the program to compile one's writing as `code' into a tidy final document -- every time. \break
+
+Preparing a \textit{curriculum vitae}, conference handout, or other document with unusual typesetting requirements becomes about the writing itself -- not the formatting.
+	
 \end{frame}
 
 \begin{frame}
-	TexLive is available in the official package repositories of most *BSD and GNU/Linux operating systems. To install the complete TeXLive distribution (which the \LaTeX\ project recommends for newcomers) on one of the most popular libre Unix-live operating systems, one could type: \break
-	
-	Debian/Ubuntu \break
-	\texttt{apt install texlive-full} \break
-	
-	Fedora \break
-	\texttt{dnf install texlive-scheme-full} \break
-	
-	Arch \break
-	\texttt{yay -S texlive-meta} \break
-	
-	FreeBSD \break
-	\texttt{pkg install texlive-full}
+	\frametitle[Starting \LaTeX]{Getting Started with \LaTeX\ as a Humanities Scholar}
+
+2 community-built, libre guidebooks \break
+
+I recommend \break \emph{The Not So Short Introduction to \LaTeX} \break
+\href{https://github.com/oetiker/lshort}{github.com/oetiker/lshort} \break
+
+My colleague recommends \break \emph{Modern \LaTeX} \break
+\href{https://github.com/mrkline/modern-latex}{github.com/mrkline/modern-latex} \break
+
+Either option may be used exclusively to learn how to typeset prose, letters, foreign languages, and more -- without the strong front-loading of materials in 
+
 \end{frame}
 
-\begin{frame}
-	
-	2 community-built, libre guidebooks \break
-	
-	I recommend \break \emph{The Not So Short Introduction to \LaTeX} \break
-	\href{https://github.com/oetiker/lshort}{github.com/oetiker/lshort} \break
-	
-	Dr. Hayes helpfully recommends \break \emph{Modern \LaTeX} \break
-	\href{https://github.com/mrkline/modern-latex}{github.com/mrkline/modern-latex}
-\end{frame}
 
 \begin{frame}[fragile]
 	\frametitle[Simple Parallel Text]{Simple Setting of Parallel Text in \LaTeX}
