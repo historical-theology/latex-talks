@@ -230,13 +230,15 @@ Since \textbf{babel} technically supports the same languages as \textbf{polyglos
 On web forums, one might read that \textbf{babel} will work better for projects meant to be compiled in \hologo{LuaLaTeX}, whereas \textbf{polyglossia} will work better with \hologo{XeLaTeX}. In 2026, however, both packages \textit{should} work seamlessly with \hologo{LuaLaTeX}. (The \textbf{polyglossia} that I include later in this talk compiled without error in \hologo{LuaLaTeX}.) \break
 	
 To make an informed choice, one should explore each package's documentation: \break
+
 \href{https://www.ctan.org/pkg/babel}{ctan.org/pkg/\textbf{babel}} \break
+
 \href{https://www.ctan.org/pkg/polyglossia}{ctan.org/pkg/\textbf{polyglossia}} \break
 	
 \end{frame}
 
 \begin{frame}[fragile]
-	\frametitle[Learning Babel]{Learning babel}
+	\frametitle[Learning babel]{Learning babel}
 	
 To learn \textbf{babel}, I recommend Chapter 13: ``Localizing documents'' in \textit{The \LaTeX\ Companion: 3rd Edition} by Mittelbach and Fischer, \break
 
@@ -247,9 +249,18 @@ pages 297--342, in Mittelbach, Frank, and Ulrike Fischer. \textit{The LaTeX Comp
 \end{frame}
 
 \begin{frame}[fragile]
+	\frametitle[Learning polyglossia]{Learning polyglossia}
+	
+To learn \textbf{polyglossia}, I recommend the package's official documentation, that is, \break
+	
+\href{https://www.ctan.org/pkg/polyglossia}{ctan.org/pkg/\textbf{polyglossia}}
+	
+\end{frame}
+
+\begin{frame}[fragile]
 	\frametitle[Using polyglossia]{Starting a project with \textit{polyglossia}}
 
-Here, I will model \textbf{polyglossia}, which is what I happen to be familiar with using for polytonic (ancient) Greek. \break
+Here, I will model \textbf{polyglossia}, which is what I happen to be familiar with using for polytonic (ancient and Byzantine) Greek. \break
 
 Include the package in the preamble:
 \begin{lstlisting}
@@ -270,34 +281,43 @@ Then, \emph{after} the beginning of the document but \emph{before} actual type, 
 
 \begin{frame}[fragile]	
 	
-When using one of the `other' declared languages, toggle it when needed, either for long excerpts as
+When using one of the `other' declared languages, toggle it when needed.
+
+A language may be toggled for a long excerpt like so:\footnote{Here and in other code samples, the Greek text is spaced incorrectly due to a limitation of using the package \verb*|lstlisting}
 	
 {\footnotesize \begin{lstlisting}
-	\begin{greek}
-		<greek text>
-		...
-	\end{greek}
+\begin{greek}
+<greek text>
+...
+\end{greek}
 \end{lstlisting}}
-	
-or for single lines as
-	
+
 {\footnotesize \begin{lstlisting}
-	\text<language>{<text in language>}
-	e.g.
-	\textgreek{<Greek text>}
-\end{lstlisting}} \break
-
-The former might be used to set apart long quotations, e.g. \break
-
 \begin{greek}
 ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
 καὶ θεὸς ἦν ὁ λόγος. \\
 \end{greek}
+\end{lstlisting}}
 
-\break \vspace{1em}
+\begin{greek}
+	ἐν ἀρχῇ ἦν ὁ λόγος, \\
+	καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
+	καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek}
 
-while latter might be used to insert a keyword, e.g. {\textgreek{ὁ λόγος}}, inside prose.
+\end{frame}
+
+\begin{frame}[fragile]	
+	
+A language may be toggled for a single line like so:
+	
+{\footnotesize \begin{lstlisting}
+\text<language>{<text in language>}
+e.g.
+\textgreek{<Greek text>}	\end{lstlisting}} \break
+	
+which might be used to insert a keyword, e.g. {\textgreek{ὁ λόγος}} (\verb|\textgreek{ὁ λόγος}|), inside prose.
 	
 \end{frame}
 
@@ -336,10 +356,6 @@ Here is a simple example of \textbf{parallel} and \textbf{polyglossia} working i
 ...
 \end{Parallel}	
 	\end{lstlisting}} \break
-
-\begin{flushright}
-	{\footnotesize \textit{The Greek text is spaced incorrectly due to a limitation of using the \verb|lstlisting| package to show code.}} \break
-\end{flushright}
 
 For a conference or classroom handout, the result might look like the next slide:
 	
@@ -405,9 +421,9 @@ Canon in Honor of Thomas Aquinas, Ode 3\footnote{Raffaele Cantarella, ed., “Ca
 \textbf{BibLaTeX} -- comprehensive citation and bibliography management, capable of being interlinked with a variety of citation managers (notably, Zotero and JabRef). \break
 
 \textbf{TeXStudio} and other graphical front-ends \break
-LaTeX can be written in any plain text editor, but a designated LaTeX writing environment improves efficiency and helps correct code errors. \break
+LaTeX can be written in any plain text editor, but a designated environment improves efficiency and helps avoid code errors. \break
 
-Designated typeface packages, e.g. \textbf{Serto} for Syriac \break 
+Designated packages for specific languages, e.g. \textbf{Serto} for Syriac \break 
 See Chapter 13 of \textit{The \LaTeX Companion: Third Edition} for other recommendations for language-specific package options, or run search queries in CTAN. \break
 
 \textbf{microtype} for small adjustments to type, such as improved automatic hyphenation (a personal favorite)
@@ -416,7 +432,9 @@ See Chapter 13 of \textit{The \LaTeX Companion: Third Edition} for other recomme
 
 \begin{frame}
 
-I thank the organizers of TUG 2026.
+I thank the organizers of TUG 2026. \break
+
+Now, I will take questions, comments, suggestions, and more.
 	
 \end{frame}
 
