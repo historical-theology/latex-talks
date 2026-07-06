@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  5 JUL 2026 12:36
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  5 JUL 2026 14:57
  restricted system commands enabled.
 **humanities-latex.tex
 (./humanities-latex.tex
@@ -1658,14 +1658,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [6
 
-]
-\openout4 = humanities-latex.vrb
- (./humanities-latex.vrb)
-[7
+] [7
 
 ]
 \openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [8
+ (./humanities-latex.vrb)
+[8
 
 ]
 \openout4 = humanities-latex.vrb
@@ -1673,21 +1671,48 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 \openout4 = humanities-latex.vrb
-
-(./humanities-latex.vrb) [10
-
-]
-\openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [11
+ (./humanities-latex.vrb) [10
 
 ]
 \openout4 = humanities-latex.vrb
 
-(./humanities-latex.vrb) [12
+(./humanities-latex.vrb) [11
 
 ]
 \openout4 = humanities-latex.vrb
- (./humanities-latex.vrb
+ (./humanities-latex.vrb) [12
+
+]
+\openout4 = humanities-latex.vrb
+
+(./humanities-latex.vrb) [13
+
+]
+\openout4 = humanities-latex.vrb
+ (./humanities-latex.vrb) [14
+
+]
+\openout4 = humanities-latex.vrb
+
+(./humanities-latex.vrb) [15
+
+]
+\openout4 = humanities-latex.vrb
+ (./humanities-latex.vrb) [16
+
+]
+\openout4 = humanities-latex.vrb
+
+(./humanities-latex.vrb) [17
+
+]
+\openout4 = humanities-latex.vrb
+ (./humanities-latex.vrb) [18
+
+]
+\openout4 = humanities-latex.vrb
+
+(./humanities-latex.vrb
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
 t line 22
 
@@ -1907,11 +1932,28 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
-) [13
+) [19
 
 ]
 \openout4 = humanities-latex.vrb
- (./humanities-latex.vrb) [14
+ (./humanities-latex.vrb) [20
+
+]
+\openout4 = humanities-latex.vrb
+ (./humanities-latex.vrb
+
+! LaTeX Error: \verb illegal in argument.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...e \verb|lstlisting| package to show code.}
+                                                  } \break
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [21
 
 ]
 \openout4 = humanities-latex.vrb
@@ -3216,9 +3258,11 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
-) [15
+) [22
 
-] [16
+] [23
+
+] [24
 
 ]
 \tf@nav=\write6
@@ -3240,23 +3284,23 @@ Package rerunfilecheck Info: File `humanities-latex.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29623 strings out of 476076
+ 29696 strings out of 476076
  100000,1144653 words of node,token memory allocated
- 5571 words of node memory still in use:
-   34 hlist, 10 vlist, 4 rule, 1 disc, 6 local_par, 129 glue, 61 kern, 19 penalt
-y, 452 glyph, 60 attribute, 61 glue_spec, 60 attribute_list, 4 write, 10 pdf_col
-orstack nodes
-   avail lists: 2:1106,3:387,4:141,5:513,6:165,7:3422,9:1736,10:18,11:158
- 51122 multiletter control sequences out of 65536+600000
- 99 fonts using 13652927 bytes
- 128i,16n,116p,435b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></us
-r/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/shar
+ 1157 words of node memory still in use:
+   13 hlist, 6 vlist, 2 rule, 3 disc, 1 local_par, 20 glue, 7 kern, 8 penalty, 3
+3 glyph, 25 attribute, 61 glue_spec, 25 attribute_list, 4 write, 4 pdf_colorstac
+k nodes
+   avail lists: 2:948,3:398,4:147,5:514,6:170,7:3950,9:1445,10:19,11:183
+ 51137 multiletter control sequences out of 65536+600000
+ 97 fonts using 13123951 bytes
+ 128i,16n,116p,506b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/
+share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/shar
 e/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
-Output written on humanities-latex.pdf (16 pages, 67271 bytes).
+Output written on humanities-latex.pdf (24 pages, 87206 bytes).
 
-PDF statistics: 503 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
- 33 named destinations out of 1000 (max. 1048576)
+PDF statistics: 732 PDF objects out of 1000 (max. 8388607)
+ 683 compressed objects within 7 object streams
+ 49 named destinations out of 1000 (max. 1048576)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)
 
