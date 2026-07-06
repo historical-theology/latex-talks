@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  6 JUL 2026 07:46
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  6 JUL 2026 16:33
  restricted system commands enabled.
 **humanities-latex.tex
 (./humanities-latex.tex
@@ -1904,14 +1904,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 \openout4 = humanities-latex.vrb
  (./humanities-latex.vrb
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 9
+t line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 9
+input line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1919,14 +1919,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 9
+t line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 9
+on input line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1934,14 +1934,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 9
+t line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 9
+input line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1949,14 +1949,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 9
+t line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 9
+on input line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1964,14 +1964,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 9
+t line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 9
+input line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -1979,14 +1979,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 9
+t line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 9
+on input line 11
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3293,20 +3293,20 @@ Package rerunfilecheck Info: File `humanities-latex.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29716 strings out of 476076
+ 29720 strings out of 476076
  100000,1144653 words of node,token memory allocated
  1634 words of node memory still in use:
    16 hlist, 6 vlist, 2 rule, 2 local_par, 35 glue, 10 kern, 10 penalty, 82 glyp
 h, 27 attribute, 61 glue_spec, 27 attribute_list, 4 write, 4 pdf_colorstack node
 s
-   avail lists: 2:944,3:396,4:147,5:507,6:169,7:3886,9:1442,10:19,11:171
- 51139 multiletter control sequences out of 65536+600000
- 98 fonts using 13187631 bytes
- 128i,16n,116p,506b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 2:970,3:399,4:147,5:530,6:169,7:3964,8:2,9:1442,10:19,11:168
+ 51143 multiletter control sequences out of 65536+600000
+ 99 fonts using 13446199 bytes
+ 128i,16n,116p,411b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/
 share/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/shar
 e/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
-Output written on humanities-latex.pdf (26 pages, 90944 bytes).
+Output written on humanities-latex.pdf (26 pages, 92555 bytes).
 
 PDF statistics: 790 PDF objects out of 1000 (max. 8388607)
  738 compressed objects within 8 object streams

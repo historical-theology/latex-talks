@@ -46,14 +46,14 @@ I serve as Lecturer in Religious Studies at the University of Houston, course de
 
 Broadly, I study patristics (the Church Fathers) and the theology of the Latin Middle Ages and Greek Byzantium. My research topics include Greek patristic Christology and cosmology, plus their Latin Scholastic reception. I am the author of \textit{Maximus the Confessor’s Thomistic Legacy} (Pontifical Institute of Medi\ae val Studies: Toronto, 2026). \break
 
-I publicly advocate software freedom by delivering talks like this one. \break
+I advocate software freedom by delivering talks like this one. \break
 
 For more about my work, visit \href{https://www.coreystephan.com}{coreystephan.com}. \break
 
 \end{frame}
 
 \begin{frame}
-    \frametitle[Everything]{\LaTeX\ for everything}
+    \frametitle[Everything]{\LaTeX\ beyond its normal bounds}
 The world's best established software system for typesetting and document formatting, \LaTeX\ has been popular throughout mathematical and physical sciences for decades. \break
 
 The utility of \LaTeX\ for humanities disciplines, however, tends to be overlooked. \break
@@ -68,15 +68,21 @@ I prepared these slides in \LaTeX\ -- with less frustration than I would have ha
 
 \begin{frame}
 	\frametitle[Tutorial]{Today's tutorial}
-In this tutorial, I will introduce attendees to the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as primary texts with our original translations. \break
+In this tutorial, I will introduce attendees to the use of \LaTeX\ for a common task in humanities scholarship, namely, \break
 
-The specific `thought experiment' will be that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. \break
+typesetting texts with unusual line length and other organizational needs, such as primary texts with accompanying translations. \break
+
+The `thought experiment' will be that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. \break
 \end{frame}
 
 \begin{frame}
 	\frametitle[\LaTeX]{As a humanities scholar, why choose \LaTeX ? {\scriptsize (1/2)} }
+	
+\begin{flushright}
+	\textit{I intend this and other general explanations of \LaTeX\ \break and its usage that I provide to be for the benefit of my \break colleagues who might view this presentation online.}\break
+\end{flushright}
 
-In historical disciplines, editors expect us to prepare our materials for publications with bug-for-bug Microsoft Word compatibility for back-and-forth markup. In practice, this expectation requires use to use word processors, such as (my favorite option) LibreOffice Writer. \break
+In humanities disciplines, such as my own area of historical theology, editors expect us to prepare our materials for publications with bug-for-bug compatibility with Microsoft Word for back-and-forth markup. In practice, this expectation requires us to use word processors, such as (my favorite option) LibreOffice Writer. \break
 
 A \textbf{word processor} presents material in a \textbf{W}hat \textbf{Y}ou \textbf{S}ee \textbf{I}s \textbf{W}hat \textbf{Y}ou \textbf{G}et (\textbf{WYSIWYG}, ``whizzy-wig'') style. While one writes, one is simultaneously thinking about and working on formatting.
 
@@ -85,11 +91,11 @@ A \textbf{word processor} presents material in a \textbf{W}hat \textbf{Y}ou \tex
 \begin{frame}
 	\frametitle[\LaTeX]{As a humanities scholar, why choose \LaTeX ? {\scriptsize (2/2)} }
 	
-In a \textbf{typesetting language}, such as \LaTeX\ (or \hologo{ConTeXt} or Typst), one is only concerned about the \emph{structure} of what one is writing. \break
+In a \textbf{typesetting language}, such as \LaTeX\ (or \hologo{ConTeXt} or Typst, either of which a humanities scholar might also choose for various reasons), one is only concerned about the \emph{structure} of what one is writing. \break
 
 One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, etc.), and one allows the program to compile one's writing as `code' into a tidy final document -- every time. \break
 
-Preparing a \textit{curriculum vitae}, conference handout, or other document with unusual typesetting requirements becomes about the writing itself -- not the formatting.
+Preparing a \textit{curriculum vitae}, conference handout, or other document with unusual typesetting requirements becomes about the writing itself rather than the formatting.
 	
 \end{frame}
 
@@ -98,20 +104,24 @@ Preparing a \textit{curriculum vitae}, conference handout, or other document wit
 
 2 community-built, libre guidebooks \break
 
-\emph{The Not So Short Introduction to \LaTeX} \hfill
+\textit{The Not So Short Introduction to \LaTeX} \hfill
 \href{https://github.com/oetiker/lshort}{github.com/oetiker/lshort} \break
 
-\break \emph{Modern \LaTeX} \hfill
+\break \textit{Modern \LaTeX} \hfill
 \href{https://github.com/mrkline/modern-latex}{github.com/mrkline/modern-latex} \break
 
-Either option may be used exclusively to learn how to typeset prose, letters, ancient languages, and more -- without the strong front-loading of mathematics and physical sciences that one finds in other introductions to \LaTeX. In other words, either option is highly efficient for a scholar in a humanities discipline.
+Either guidebook may be used to begin to learn how to typeset prose, letters, ancient languages, and other materials that are relevant across the humanities -- without the strong front-loading of mathematics and physical sciences that one finds in other introductions to \LaTeX. \break
+
+In other words, either option provides an efficient introduction to \LaTeX\ for a scholar in a humanities discipline.
 
 \end{frame}
 
 
 \begin{frame}[fragile]
 	\frametitle[Simple Parallel Text]{Simple setting of parallel text in \LaTeX}
-There are many ways to set parallel text in \LaTeX. The simplest is to use the community package called \textbf{parallel}, which is included in TeXLive, MiKTeX, and other \LaTeX\ distrubtions. For full documentation, visit: \break 
+There are many ways to set parallel text in \LaTeX.\break
+
+The simplest is to use the community package called \textbf{parallel}, which is included in \hologo{TeXLive}, \hologo{MiKTeX}, and other \LaTeX\ distrubtions. For full documentation, visit: \break 
 
 \href{https://ctan.org/pkg/parallel}{ctan.org/pkg/parallel} \break
 
@@ -123,7 +133,7 @@ To start using \textbf{parallel} in any \LaTeX\ document, include the following 
 \end{frame}
 
 \begin{frame}[fragile]
-For example, here is a heavily abbreviated form of the preamble to this Beamer file with the most important entries, including \textbf{parallel}: \break
+For example, newcomers, here is an abbreviation of the preamble to this Beamer file with the most important entries, including \textbf{parallel}: \break
 
 {\footnotesize \begin{lstlisting}
 \documentclass[aspectratio=169]{beamer}
@@ -153,7 +163,7 @@ Basic format \break
 		\ParallelRText{<right text row 1>}
 			\ParallelPar
 		\ParallelLText{<left text row 2>}
-	...	
+	[and so on]	
 \end{Parallel}	
 \end{lstlisting}}
 \end{frame}
@@ -170,6 +180,9 @@ Example \break
 	\ParallelPar
 	\ParallelLText{gratia plena,}
 	\ParallelRText{full of grace,}
+	\ParallelPar
+	\ParallelLText{\ldots}
+	\ParallelRText{\ldots}
 \end{Parallel}	
 \end{lstlisting}}
 \vfill
@@ -179,6 +192,9 @@ Example \break
 	\ParallelPar
 	\ParallelLText{gratia plena,}
 	\ParallelRText{full of grace,}
+	\ParallelPar
+	\ParallelLText{\ldots}
+	\ParallelRText{\ldots}
 \end{Parallel}	
 
 \end{frame}
@@ -186,7 +202,13 @@ Example \break
 \begin{frame}[fragile]
 	\frametitle[Advanced Parallel Text]{Advanced setting of parallel text in \LaTeX\  {\scriptsize (1/2)}}
 	
-For advanced scholarly setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \textbf{reledpar} (for parallel typesetting specifically) and \textbf{reledmac} (for typesetting academic editions in general), which are bundled with TeXLive and other \LaTeX\ distributions. \break
+For advanced scholarly setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \break 
+
+\textbf{reledpar} (for parallel typesetting specifically) and \break 
+
+\textbf{reledmac} (for typesetting academic editions in general),\break 
+
+which are bundled with \hologo{TeXLive} and other \LaTeX\ distributions. \break
 
 \textbf{reledpar} and \textbf{reledmac} are purpose-built for long-form academic parallel texts. \break
 
@@ -196,13 +218,17 @@ These two packages are meant to replace older methods of academic parallel text 
 \begin{frame}[fragile]
 	\frametitle[Advanced Parallel Text]{Advanced setting of parallel text in \LaTeX\  {\scriptsize (2/2)}}
 
-For full documentation, visit \break
+For full documentation, visit: \break
+
 \href{https://ctan.org/pkg/reledpar}{ctan.org/pkg/\textbf{reledpar}} \break
+
 \href{https://ctan.org/pkg/reledmac}{ctan.org/pkg/\textbf{reledmac}} \break
 	
-To start using \textbf{reledpar} and \textbf{reledmac}, remember them in the preamble:
+To start using \textbf{reledpar} and \textbf{reledmac}, remember them in the preamble: \break
+
 \begin{lstlisting}
 \usepackage{reledpar}
+
 \usepackage{reledmac}
 \end{lstlisting}
 	
@@ -211,23 +237,33 @@ To start using \textbf{reledpar} and \textbf{reledmac}, remember them in the pre
 \begin{frame}[fragile]
 	\frametitle[Non-Latin Text]{Setting of non-Latin text in \LaTeX}
 
-The most important packages for handling text outside of Latin alphabets are the community packages \textbf{babel} and \textbf{polyglossia}, which are included in TeXLive and other \LaTeX\ distributions. \break
+The most important packages for handling text outside of Latin alphabets are the community packages \textbf{babel} and \textbf{polyglossia}, which are included in \hologo{TeXLive} and other \LaTeX\ distributions. \break
 
-Although it is possible to convert a project from one of these metapackages two the other, one ought to invest the time to choose carefully between either of these two at the start of a project.
+Although it is possible to convert a project from one of these metapackages two the other, one ought to invest the time to choose carefully between either of these two at the start of a long-form project.
 \end{frame}
 
 \begin{frame}[fragile]
 	\frametitle[Polyglossia vs. Babel]{polyglossia vs. babel {\scriptsize (1/2)}}
 	
-In \textit{The \LaTeX\ Companion: 3rd Edition}, Mittelbach and Fischer suggest that despite being older, \textbf{babel} generally is preferrable to \textbf{polyglossia}: ``Unless you are in a special situation where a language or script is notably better supported by \textbf{polyglossia}, the recommendation is to use \textbf{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). \break
+In \textit{The \LaTeX\ Companion: 3rd Edition}, Frank Mittelbach and Ulrike Fischer, both of whom are fellow speakers at TUG 2026, suggest that despite the fact that \textbf{babel} is older than \textbf{polyglossia}, \break 
 
-Since \textbf{babel} technically supports the same languages as \textbf{polyglossia}, a situation in which one would need \textbf{polyglossia} over \textbf{babel} will be rare, but a scholar working with ancient languages might have just such a rare situation. \break
+\textbf{babel} \underline{generally is preferrable}: \break
+
+ ``Unless you are in a special situation where a language or script is notably better supported by \textbf{polyglossia}, the recommendation is to use \textbf{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). \break
+
+Since \textbf{babel} technically supports the same languages as \textbf{polyglossia}, a situation in which one would need \textbf{polyglossia} over \textbf{babel} will be rare, but a scholar working with ancient languages might have such a rare situation. \break
 \end{frame}
 
 \begin{frame}[fragile]
 	\frametitle[Polyglossia vs. Babel]{polyglossia vs. babel {\scriptsize (2/2)}}
 	
-On web forums, one might read that \textbf{babel} will work better for projects meant to be compiled in \hologo{LuaLaTeX}, whereas \textbf{polyglossia} will work better with \hologo{XeLaTeX}. In 2026, however, both packages \textit{should} work seamlessly with \hologo{LuaLaTeX}. (The \textbf{polyglossia} that I include later in this talk compiled without error in \hologo{LuaLaTeX}.) \break
+In (old) web forum discussions, one might read that \textbf{babel} will work better with \hologo{LuaLaTeX}, whereas \textbf{polyglossia} will work better with \hologo{XeLaTeX}. \break 
+
+In 2026, however, one can choose either \textbf{babel} or \textbf{polyglossia} for either of the two mainline \LaTeX\ engines that are built with full Unicode support, \hologo{XeLaTeX} or \hologo{LuaLaTeX}. \break
+
+Results might vary depending on the specifics of a given project. \break
+
+(I typically use \hologo{LuaLaTeX} to compile \textbf{polyglossia}, including for these slides.) \break
 	
 To make an informed choice, one should explore each package's documentation: \break
 
@@ -260,7 +296,7 @@ To learn \textbf{polyglossia}, I recommend the package's official documentation,
 \begin{frame}[fragile]
 	\frametitle[Using polyglossia]{Starting a project with \textit{polyglossia}}
 
-Here, I will model \textbf{polyglossia}, which is what I happen to be familiar with using for polytonic (ancient and Byzantine) Greek. \break
+Here, I will model \textbf{polyglossia}, which is what I happen to be familiar with using for polytonic (ancient and Byzantine) Greek. {\footnotesize (Yet, after reading the recommendation of Mittelbach and Fischer, I intend to try \textbf{babel} for future projects.)} \break
 
 Include the package in the preamble:
 \begin{lstlisting}
@@ -310,14 +346,17 @@ A language may be toggled for a long excerpt like so:\footnote{Here and in other
 
 \begin{frame}[fragile]	
 	
-A language may be toggled for a single line like so:
+A language may be toggled for a single line like so: \break
 	
 {\footnotesize \begin{lstlisting}
 \text<language>{<text in language>}
 e.g.
 \textgreek{<Greek text>}	\end{lstlisting}} \break
 	
-which might be used to insert a keyword, e.g. {\textgreek{ὁ λόγος}} (\verb|\textgreek{ὁ λόγος}|), inside prose.
+\vfill
+This might be used to insert a keyword, e.g. \break 
+{\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), \break
+inside prose.
 	
 \end{frame}
 
@@ -338,13 +377,13 @@ The simplest way of showing multilingual text in parallel is \break
 
 \vspace{1em}
 
-but since this is tedious for more than a few lines, I remind everyone of \textbf{reledpar} and \textbf{reledmac} for longer and/or more complicated parallel text displays. \break
+but since this is tedious for more than a few lines, I remind everyone of \break \textbf{reledpar} and \textbf{reledmac} for longer and/or more complicated parallel text displays. \break
 
 \end{frame}
 
 \begin{frame}[fragile]
 
-Here is a simple example of \textbf{parallel} and \textbf{polyglossia} working in combination, featuring my own translation from the opening chapter to \textit{Maximus the Confessor's Thomistic Legacy}:\break
+Here is a simple example of \textbf{parallel} and \textbf{polyglossia} working in combination to display my own translation from the opening chapter of \textit{Maximus the Confessor's Thomistic Legacy}:\break
 	
 {\footnotesize \begin{lstlisting}
 \begin{Parallel}{0mm}{0mm}
@@ -363,7 +402,7 @@ For a conference or classroom handout, the result might look like the next slide
 
 \begin{frame}[fragile]
 
-Canon in Honor of Thomas Aquinas, Ode 3\footnote{Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \emph{Archivum Fratrum Praedicatorum} 12 (1934): 145--85 at 155--58.} \\
+Canon in Honor of Thomas Aquinas, Ode 3\footnote{The Greek text is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \emph{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58.} \\
 {\small Translated by Corey Stephan, Ph.D.} \break
 
 {\footnotesize \begin{Parallel}{0mm}{0mm}
@@ -420,13 +459,13 @@ Canon in Honor of Thomas Aquinas, Ode 3\footnote{Raffaele Cantarella, ed., “Ca
 
 \textbf{BibLaTeX} -- comprehensive citation and bibliography management, capable of being interlinked with a variety of citation managers (notably, Zotero and JabRef). \break
 
-\textbf{TeXStudio} and other graphical front-ends \break
+\textbf{TeXstudio} and other \LaTeX\ -specific graphical writing environments \break
 LaTeX can be written in any plain text editor, but a designated environment improves efficiency and helps avoid code errors. \break
 
-Designated packages for specific languages, e.g. \textbf{Serto} for Syriac \break 
-See Chapter 13 of \textit{The \LaTeX Companion: Third Edition} for other recommendations for language-specific package options, or run search queries in CTAN. \break
+Designated packages for individual languages, e.g. \textbf{Serto} for Syriac \break 
+See Chapter 13 of \textit{The \LaTeX\ Companion: Third Edition} for other recommendations for language-specific package options, or run search queries in CTAN. \break
 
-\textbf{microtype} for small adjustments to type, such as improved automatic hyphenation (a personal favorite)
+\textbf{microtype} for small adjustments to type, such as improved automatic hyphenation
 
 \end{frame}
 
