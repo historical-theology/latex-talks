@@ -28,144 +28,101 @@
 % please include the mailing address we should use, as a comment if
 % you prefer it not be printed.
 
-% Physical copy, please, mailed to
+% Physical copy, please, mailed here:
+%
 % Corey Stephan
 % 2126 Berkshire Elm Street
 % Katy, Texas, USA 77493
+%
+
+% Corey Stephan's package declarations
+\usepackage{polyglossia}
+\usepackage{listings}
+\usepackage{parallel}
+\usepackage{hologo}
 
 \begin{document}
+	
+% Corey Stephan's linguistic declarations
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+	
 \maketitle
 
 \begin{abstract}
-{The world's best established software system for typesetting 
-	and document formatting, \LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \LaTeX's utility for scholars in humanities disciplines, however, tends to be overlooked.
-	
-	In this tutorial, I introduce the use of \LaTeX\ for a
-	common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as poetry andtranslations. The specific example is preparing a handout for a historical conference or class presentation with perfectly organized excerpts of ancient Greek and parallel English translations.
-	
-	I aim to inspire the reader to think about \LaTeX\ as a flexible tool with a wider range of professional applications than it is often understood as having.
+{\LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \LaTeX's utility for scholars in humanities disciplines, however, tends to be overlooked. In this tutorial, I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as poetry and translations. The specific example is preparing a handout for a historical conference or class presentation with excerpts of ancient Greek and parallel English translations. Ultimately, I aim to inspire colleagues in religious, historical, philosophical, and related areas to think of \LaTeX\ as having a wide range of professional applications even inside these scholarly fields in which \LaTeX\ is not widespread.}
 \end{abstract}
 
 \section{Introduction}
 
-This is an example article for \TUB, linked from
-\url{https://tug.org/TUGboat/location.html}.
+The world's best established software system for typesetting and document formatting, \LaTeX\ has been popular throughout mathematical and physical sciences for decades. The utility of \LaTeX\ for humanities disciplines, however, tends to be overlooked. \LaTeX\ can be used for typesetting in most instances in which a scholar of humanities needs to present materials. Whether one works in history, philosophy, literature, or some other discipline in which \LaTeX\ is not usually employed, \LaTeX\ is nevertheless worth the investment of time to learn.
 
-\section{Basic packages and hyperlinks}
+Granted, in disciplines outside the mathematical and physical sciences, such as my own area of historical theology (technically, divinities rather than humanities), editors expect us to prepare our materials for publications with bug-for-bug compatibility with Microsoft Word for back-and-forth markup. In practice, this expectation requires us to use word processors, such as LibreOffice Writer. A word processor presents material in a What You See Is What You Get (WYSIWYG, ``whizzy-wig'') style. While one writes, one is simultaneously thinking about and working on formatting.
 
-The standard \texttt{graphicx} and \texttt{xcolor} packages work fine
-for image and color handling, respectively, as does the
-\texttt{hyperref} package for active urls. \TUB\ is produced using
-\acro{PDF} files exclusively, but conversion from \DVI\ is fine and supported.
+In a typesetting language, such as \LaTeX\ (or \ConTeXt\ or Typst, either of which a scholar might also choose for various reasons), one is only concerned about the structure of what one is writing. One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, and so on), and one allows the program to compile one's writing as `code' into a tidy final document \Dash every time. Preparing a \textit{curriculum vitae}, conference handout, or other document with unusual typesetting requirements becomes about the writing itself rather than the formatting.
 
-Please use the standard \cs{url} command for urls:
+To learn \LaTeX\ as a scholar outside the disciplines in which \LaTeX\ is the norm, I recommend working through one of two community-built, libre guidebooks. The first, which I used to learn \LaTeX, is \textit{The Not So Short Introduction to \LaTeX} (\url{github.com/oetiker/lshort}). The second, which a close colleague of mine recommends, is \textit{Modern \LaTeX} (\url{github.com/mrkline/modern-latex}). Either guidebook may be used to begin to learn how to typeset cover letters, ancient languages, and other materials that are relevant across the humanities \Dash without the front-loading of mathematics and physical sciences that one finds in other general introductions.
+
+To show how thinking about digital typesetting in terms of document structure rather than final format can be of practical use in the humanities, here I present a tutorial in which I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs. The thought experiment is that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel.
+
+\section{Simplest parallel text in \LaTeX}
+
+There are many ways to set parallel text in \LaTeX. The simplest is to use the community package called \texttt{parallel}, which is included in \hologo{TeXLive}, \hologo{MiKTeX}, and other \LaTeX\ distrubtions. For full documentation, visit \url{https://ctan.org/pkg/parallel}.
+
+To start using \texttt{parallel} in any \LaTeX\ document, include the following in the preamble:
+{\small \begin{verbatim}
+\usepackage{parallel}
+\end{verbatim}}
+For example, here is an abbreviation of the preamble to the Beamer file for my talk at \TUG\ 2026 (\url{github.com/historical-theology/latex-talks/}) with only the most important entries, including \texttt{parallel}:
+{\small \begin{verbatim}
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Goettingen}
+
+\usepackage{parallel}
+
+\title{\LaTeX\ for Elegant Humanities Handouts 
+			\\ in Conferences and Classrooms }
+\author{Corey Stephan, Ph.D.}
+
+\begin{document}
+\end{verbatim}}
+
+The basic format for parallel text set with \texttt{parallel} looks like this:
+
+{\small \begin{verbatim}
+\begin{Parallel}{}<left space>}{<right space>}
+\ParallelLText{<left text row 1>}
+\ParallelRText{<right text row 1>}
+\ParallelPar
+\ParallelLText{<left text row 2>}
+[and so on]
+\end{Parallel}	
+\end{verbatim}}
+I (a theologian) might typeset the opening words of the Christian prayer \textit{Ave Maria} in their traditional Latin with parallel English like so:
+
 \begin{verbatim}
-\url{https://some/url} % yes
+\begin{Parallel}{0mm}{0mm}
+	\ParallelLText{Ave Maria,}
+	\ParallelRText{Hail Mary,}
+		\ParallelPar
+	\ParallelLText{gratia plena,}
+	\ParallelRText{full of grace,}
+		\ParallelPar
+\end{Parallel}	
 \end{verbatim}
-For \TUB, we prefer not to print the `\texttt{https://}', but to include
-the protocol in other cases, so we usually do \verb|\def\url{\tburl}|,
-which takes care of that, while keeping the source using the standard
-\cs{url} command.
 
-In any case, please do \emph{not} hide hyperlinks via \cs{href}, as in:
-\begin{verbatim}
-\href{https://some/url}{some text} % no!
-\end{verbatim}
-When printed on paper, the url will not be visible and readers will
-not know it exists.
+\begin{Parallel}{0em}{0em}
+\ParallelLText{Ave Maria,}
+\ParallelRText{Hail Mary,}
+\ParallelPar
+\ParallelLText{gratia plena,}
+\ParallelRText{full of grace,}
+\ParallelPar
+\end{Parallel}	
 
 \section{Abbreviation macros and typing}
 
-The \texttt{ltugboat} class provides many abbreviation commands; here
-are a few of the most common:
 
-% verbatim blocks are often better in \small
-\begin{verbatim}[\small]
-\AllTeX \AMS \BibTeX \Cplusplus \CTAN \DVI
-\HTML \LaTeXe \macOS \MathML \MF \PDF \PS
-\TUB \TUG \tug \WEB \XeLaTeX \XeTeX \XML
-\end{verbatim}
-
-A few other typing conventions:
-
-\begin{itemize}
-\item For an em-dash with our spacing (preferred to \verb|---|):
-\cs{Dash}, with output\Dash like this.
-
-\item For initialisms in all caps:
-\verb|\acro{FRED}|,\\ with output: \acro{FRED}.
-
-\item A literal control sequence:
-\verb|\cs{fred}|,\\ with output: \cs{fred}.
-
-\item A syntactic metavariable:
-\verb|\meta{fred}|,\\ with output: \meta{fred}.
-
-\item A title:
-\verb|\titleref{Book of Fred}|,\\ with output: \titleref{Book of Fred}.
-\end{itemize}
-
-We recommend using \cs{begin}\tubbraced{verbatim}\texttt{[\small] ...}
-\cs{end}\tubbraced{verbatim} for code blocks, since we prefer not to
-colorize code when printed. But if you want to have some font changes,
-our recommended settings for the \texttt{listings} package are in the
-\texttt{ltubguid} manual mentioned below.
-
-Please put punctuation outside quotes, ``like this'', unless the
-punctuation is actually part of the quoted material.
-
-Also, please put punctuation after footnotes.
-
-\section{Figures}
-
-For \TUB, the standard \texttt{figure} environment produces a
-column-width figure; this is desirable when at all possible. The
-\texttt{figure*} environment produces a full-width (across both columns)
-figure when needed. Analogously for \texttt{table} and \texttt{table*}.
-
-Please put captions below figures, but above tables.
-
-Don't worry overmuch about figure placements, as they will likely change
-with editing.
-
-\begin{figure}
-This is a column-width figure, made with \\
-\cs{begin}\tubbraced{figure}. Use \tubbraced{figure*} for a full-width
-(double-column) figure.
-%
-\caption{Caption for column-width figure.}
-\label{fig.example}
-\end{figure}
-
-%\begin{figure*}
-%A full-width figure, made with \cs{begin}\tubbraced{figure*}.
-%\caption{Caption for full-width figure.}
-%\label{fig.fullwidth}
-%\end{figure*}
-
-\section{References}
-
-For references to other issues of \TUB, please use the format
-\textsl{volno}:\textsl{issno}, e.g., ``\TUB\ 32:1''.
-
-The primary \TUB\ style documentation is the \texttt{ltubguid} manual,
-available online at \tbsurl{ctan.org/pkg/tugboat} or locally with
-\texttt{texdoc tugboat}. For general \CTAN\ package references, we
-recommend that form, using \texttt{/pkg/}. If you need to refer to a
-specific file on \CTAN, use:\\
-\texttt{https://mirror.ctan.org/\textsl{path}}
-
-We recommend using \BibTeX\ (but don't require it), with the
-\texttt{tugboat} \BibTeX\ style. The \texttt{biblio} directory on \CTAN,
-\tbsurl{ctan.org/pkg/biblio}, provides files \texttt{tugboat.bib} with a
-complete bibliography of \TUB, \texttt{texbook3.bib} with many common
-\TeX-related books and articles, and plenty more.
-
-Email \verb|tugboat@tug.org| with any questions.
-
-%\nocite{book-minimal}       % to make the example bibliography non-empty
-% \bibliographystyle{tugboat} % tugboat's bibtex style
-% \bibliography{xampl}        % replace with your .bib filename
 
 \makesignature
 \end{document}
