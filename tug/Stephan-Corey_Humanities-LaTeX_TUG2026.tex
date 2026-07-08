@@ -14,7 +14,7 @@
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
 
-\title{\LaTeX\ for Elegant Humanities Handouts \\ in Conferences and Classrooms}
+\title{\LaTeX\ for Elegant Humanities Handouts in Conferences and Classrooms}
 
 % repeat info for each author; comment out items that don't apply.
 \author{Corey J. Stephan}
@@ -60,7 +60,7 @@ Granted, in disciplines outside the mathematical and physical sciences, such as 
 
 In a typesetting language, such as \LaTeX\ (or \ConTeXt\ or Typst, either of which a scholar might also choose for various reasons), one is only concerned about the structure of what one is writing. One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, and so on), and one allows the program to compile one's writing as `code' into a tidy final document \Dash every time. Preparing a \textit{curriculum vitae}, conference handout, or other document with unusual typesetting requirements becomes about the writing itself rather than the formatting.
 
-To learn \LaTeX\ as a scholar outside the disciplines in which \LaTeX\ is the norm, I recommend working through one of two community-built, libre guidebooks. The first, which I used to learn \LaTeX, is \textit{The Not So Short Introduction to \LaTeX} (\url{github.com/oetiker/lshort}). The second, which a close colleague of mine recommends, is \textit{Modern \LaTeX} (\url{github.com/mrkline/modern-latex}). Either guidebook may be used to begin to learn how to typeset cover letters, ancient languages, and other materials that are relevant across the humanities \Dash without the front-loading of mathematics and physical sciences that one finds in other general introductions.
+To learn \LaTeX\ as a scholar outside the disciplines in which \LaTeX\ is the norm, I recommend working through one of two community-built, libre guidebooks. The first, which I used to learn \LaTeX, is \titleref{The Not So Short Introduction to \LaTeX} (\url{github.com/oetiker/lshort}). The second, which a colleague of mine recommends, is \titleref{Modern \LaTeX} (\url{github.com/mrkline/modern-latex}). Either guidebook may be used to begin to learn how to typeset cover letters, ancient languages, and other materials that are relevant across the humanities \Dash without the front-loading of mathematics and physical sciences that one finds in other general introductions.
 
 To show how thinking about digital typesetting in terms of document structure rather than final format can be of practical use in the humanities, here I present a tutorial in which I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs. The thought experiment is that of determining how to prepare a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel.
 
@@ -86,7 +86,7 @@ For example, here is an abbreviation of the preamble to the Beamer file for my t
 \begin{document}
 \end{verbatim}}
 
-The basic format for parallel text set with \texttt{parallel} looks like this:
+This is the basic format for parallel text set with the package \texttt{parallel}:
 
 {\small \begin{verbatim}
 \begin{Parallel}{}<left space>}{<right space>}
@@ -109,7 +109,7 @@ I (a theologian) might typeset the opening words of the Christian prayer \textit
 		\ParallelPar
 \end{Parallel}	
 \end{verbatim}
-
+Here is the result:
 \begin{Parallel}{0em}{0em}
 \ParallelLText{Ave Maria,}
 \ParallelRText{Hail Mary,}
@@ -124,6 +124,64 @@ I (a theologian) might typeset the opening words of the Christian prayer \textit
 For advanced scholarly setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \texttt{reledpar} (for parallel typesetting specifically) and \texttt{reledmac} (for typesetting academic editions in general), which are bundled with \hologo{TeXLive} and other \LaTeX\ distributions.
 
 \texttt{reledpar} and \texttt{reledmac} are purpose-built for long-form academic parallel texts. These two packages are meant to replace older methods of academic parallel text preparation in \LaTeX\ that one might find in Web searches. For full documentation, visit \url{ctan.org/pkg/reledpar} and \url{ctan.org/pkg/reledmac}.
+
+\section{Setting non-Latin characters in \LaTeX}
+
+The most important packages for handling text outside Latin alphabets are \texttt{babel} and \texttt{polyglossia}, which are included in \hologo{TeXLive} and other \LaTeX\ distributions. Although it is possible to convert a project from one of these metapackages to the other, a scholar ought to invest the time to choose carefully between either of these two at the start of a long-form project.
+
+\subsection{babel vs. polyglossia}
+
+In \titleref{The \LaTeX\ Companion: 3rd Edition} (Addison-Wesley, 2023), Frank Mittelbach and Ulrike Fischer suggest that despite the fact that \texttt{babel} is older than \texttt{polyglossia}, \texttt{babel} generally is preferrable: ``Unless you are in a special situation where a language or script is notably better supported by \texttt{polyglossia}, the recommendation is to use \texttt{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). Since \texttt{babel} technically supports the same languages as \texttt{polyglossia}, a situation in which one would need \texttt{polyglossia} over \texttt{babel} will be rare. Yet, a scholar working with ancient languages might have such a rare situation.
+
+In (old) Web forum discussions, one might read that \texttt{babel} will work better with \LuaLaTeX, whereas \texttt{polyglossia} will work better with \XeLaTeX. In 2026, however, one may choose either of the two mainline \LaTeX\ engines that are built with full Unicode support, that is, \XeLaTeX\ or \LuaLaTeX, for \texttt{babel} or \texttt{polyglossia}. Results might vary, however, depending on the specifics of a given project.
+
+To make an informed choice against a specific set of requirements for a given academic undertaking, one should explore each package's documentation at \url{ctan.org/pkg/babel} and \url{ctan.org/pkg/polyglossia}.
+
+To learn \texttt{babel}, I recommend Chapter 13: ``Localizing documents'' in \titleref{The \LaTeX\ Companion: 3rd Edition} by Mittelbach and Fischer, which succinctly introduces localization in \LaTeX\ via \texttt{babel} in a practical, didactic (teaching) style.
+
+To learn \texttt{polyglossia}, I recommend the package's official documentation in \CTAN.
+
+\section{Starting a project with \texttt{polyglossia}}
+
+Here, I will model \texttt{polyglossia}, which is what I happen to be familiar with using for polytonic (ancient and Byzantine) Greek.
+
+First, include the package in the preamble:
+{\small \begin{verbatim}
+\usepackage{polyglossia}
+\end{verbatim} 
+}
+Then, after the beginning of the document but before actual type, declare the languages and their variants. For example, here is this .tex file's \texttt{polyglossia} declarations:
+
+{\small \begin{verbatim}
+\begin{document}
+	\setdefaultlanguage{english}
+	\setotherlanguage[variant=ancient]{greek}
+\end{verbatim}}
+
+One is able to use one of the `other' declared languages (in this case, ancient Greek) by toggling it when needed.
+
+A language may be toggled for a long excerpt like so:
+
+{\small \begin{verbatim}
+\begin{greek}
+	<greek text>
+	...
+\end{greek}
+\end{verbatim}}
+For example, here is the famous opening to John's Gospel:
+{\small \begin{verbatim}
+\begin{greek}
+ἐν ἀρχῇ ἦν ὁ λόγος, \\
+καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
+καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek}
+\end{verbatim}}
+
+\begin{greek}
+ἐν ἀρχῇ ἦν ὁ λόγος, \\
+καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
+καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek}
 
 
 

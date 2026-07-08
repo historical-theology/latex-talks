@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  8 JUL 2026 14:49
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  8 JUL 2026 15:23
  restricted system commands enabled.
 **Stephan-Corey_Humanities-LaTeX_TUG2026.tex
 (./Stephan-Corey_Humanities-LaTeX_TUG2026.tex
@@ -613,16 +613,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (13.12788pt too wide) in paragraph at lines 89--90
-[]\TU/lmr/m/n/10 The ba-sic for-mat for par-al-lel text set with \TU/lmtt/m/n/1
-0 parallel|
- []
-
-
-Underfull \vbox (badness 1062) has occurred while \output is active []
-
- [901{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[901{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -701,11 +692,458 @@ Overfull \hbox (243.0pt too wide) in paragraph at lines 119--119
 [] |
  []
 
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 144.
+[902]
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἀ (U+1F00) in font [lmmono9-regular]:!
+Missing character: There is no ρ (U+03C1) in font [lmmono9-regular]:!
+Missing character: There is no χ (U+03C7) in font [lmmono9-regular]:!
+Missing character: There is no ῇ (U+1FC7) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἀ (U+1F00) in font [lmmono9-regular]:!
+Missing character: There is no ρ (U+03C1) in font [lmmono9-regular]:!
+Missing character: There is no χ (U+03C7) in font [lmmono9-regular]:!
+Missing character: There is no ῇ (U+1FC7) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no ὶ (U+1F76) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no π (U+03C0) in font [lmmono9-regular]:!
+Missing character: There is no ρ (U+03C1) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no τ (U+03C4) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no θ (U+03B8) in font [lmmono9-regular]:!
+Missing character: There is no ε (U+03B5) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no ὶ (U+1F76) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no π (U+03C0) in font [lmmono9-regular]:!
+Missing character: There is no ρ (U+03C1) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no τ (U+03C4) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no θ (U+03B8) in font [lmmono9-regular]:!
+Missing character: There is no ε (U+03B5) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no ὶ (U+1F76) in font [lmmono9-regular]:!
+Missing character: There is no θ (U+03B8) in font [lmmono9-regular]:!
+Missing character: There is no ε (U+03B5) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no ὶ (U+1F76) in font [lmmono9-regular]:!
+Missing character: There is no θ (U+03B8) in font [lmmono9-regular]:!
+Missing character: There is no ε (U+03B5) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+
+! Package polyglossia Error: The current main roman font, lmroman10-regular,
+(polyglossia)                does not contain the "Greek" script!
+(polyglossia)                Please define \greekfont with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.181 ἐ
+         ν ἀρχῇ ἦν ὁ λόγος, \\
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 181
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Missing character: There is no ἐ (U+1F10) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἀ (U+1F00) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ρ (U+03C1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no χ (U+03C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ῇ (U+1FC7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no κ (U+03BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὶ (U+1F76) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no π (U+03C0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ρ (U+03C1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no κ (U+03BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὶ (U+1F76) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἐ (U+1F10) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἀ (U+1F00) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ρ (U+03C1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no χ (U+03C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ῇ (U+1FC7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no κ (U+03BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὶ (U+1F76) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no π (U+03C0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ρ (U+03C1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no κ (U+03BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὶ (U+1F76) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 131.
+(Font)              <9> on input line 189.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 131.
-[902
+(Font)              <6> on input line 189.
+[903
+Missing character: There is no ἐ (U+1F10) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ἀ (U+1F00) in font [lmmono9-regular]:!
+Missing character: There is no ρ (U+03C1) in font [lmmono9-regular]:!
+Missing character: There is no χ (U+03C7) in font [lmmono9-regular]:!
+Missing character: There is no ῇ (U+1FC7) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no ὶ (U+1F76) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no π (U+03C0) in font [lmmono9-regular]:!
+Missing character: There is no ρ (U+03C1) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no τ (U+03C4) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no θ (U+03B8) in font [lmmono9-regular]:!
+Missing character: There is no ε (U+03B5) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no κ (U+03BA) in font [lmmono9-regular]:!
+Missing character: There is no α (U+03B1) in font [lmmono9-regular]:!
+Missing character: There is no ὶ (U+1F76) in font [lmmono9-regular]:!
+Missing character: There is no θ (U+03B8) in font [lmmono9-regular]:!
+Missing character: There is no ε (U+03B5) in font [lmmono9-regular]:!
+Missing character: There is no ὸ (U+1F78) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἦ (U+1F26) in font [lmmono9-regular]:!
+Missing character: There is no ν (U+03BD) in font [lmmono9-regular]:!
+Missing character: There is no ὁ (U+1F41) in font [lmmono9-regular]:!
+Missing character: There is no λ (U+03BB) in font [lmmono9-regular]:!
+Missing character: There is no ό (U+03CC) in font [lmmono9-regular]:!
+Missing character: There is no γ (U+03B3) in font [lmmono9-regular]:!
+Missing character: There is no ο (U+03BF) in font [lmmono9-regular]:!
+Missing character: There is no ς (U+03C2) in font [lmmono9-regular]:!
+Missing character: There is no ἐ (U+1F10) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἀ (U+1F00) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ρ (U+03C1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no χ (U+03C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ῇ (U+1FC7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no κ (U+03BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὶ (U+1F76) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no π (U+03C0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ρ (U+03C1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no κ (U+03BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὶ (U+1F76) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ε (U+03B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὸ (U+1F78) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ἦ (U+1F26) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ὁ (U+1F41) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ό (U+03CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ο (U+03BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ς (U+03C2) in font [lmroman10-regular]:+tlig;!
 
 ] (./Stephan-Corey_Humanities-LaTeX_TUG2026.aux)
  ***********
@@ -714,36 +1152,37 @@ L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Stephan-Corey_Humanities-LaTeX_TUG2026.out' 
 has not changed.
-(rerunfilecheck)             Checksum: 145F83DEB2E1DAD0B62958DD8CB2A7C0;523.
+(rerunfilecheck)             Checksum: 84634E4CF775494FA6F4F393A4F13B40;1161.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14798 strings out of 476076
+ 14817 strings out of 476076
  156557,794899 words of node,token memory allocated
- 530 words of node memory still in use:
-   5 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 4 glyph, 9 
-attribute, 54 glue_spec, 9 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:621,3:394,4:176,5:1059,6:78,7:16805,8:44,9:747,10:12,11:12
-35
- 37030 multiletter control sequences out of 65536+600000
- 45 fonts using 3501983 bytes
- 87i,7n,86p,1034b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/
-texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf-dist/
-fonts/opentype/public/lm/lmroman7-italic.otf></usr/share/texmf-dist/fonts/openty
-pe/public/lm/lmroman10-italic.otf></usr/share/texmf-dist/fonts/opentype/public/l
-m/lmroman7-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman7-
-bold.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></us
-r/share/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/sha
-re/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf-di
-st/fonts/opentype/public/lm/lmromanslant9-regular.otf></usr/share/texmf-dist/fon
-ts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy9.pfb>
-Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (2 pages, 59213 byt
+ 560 words of node memory still in use:
+   5 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 4 glyph, 12
+ attribute, 54 glue_spec, 12 attribute_list, 1 write, 5 pdf_action nodes
+   avail lists: 1:4,2:781,3:406,4:160,5:1065,6:99,7:16984,8:43,9:755,10:12,11:12
+45
+ 37045 multiletter control sequences out of 65536+600000
+ 46 fonts using 3628391 bytes
+ 87i,7n,86p,1034b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/
+texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf-dist/f
+onts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf-dist/fonts/openty
+pe/public/lm/lmromanslant8-regular.otf></usr/share/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmro
+man7-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman7-bold.o
+tf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/shar
+e/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/share/tex
+mf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf-dist/fon
+ts/opentype/public/lm/lmromanslant9-regular.otf></usr/share/texmf-dist/fonts/ope
+ntype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy9.pfb>
+Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (3 pages, 69353 byt
 es).
 
-PDF statistics: 123 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 1048576)
- 25 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 153 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 11 named destinations out of 1000 (max. 1048576)
+ 49 words of extra memory for PDF output out of 10000 (max. 100000000)
 
