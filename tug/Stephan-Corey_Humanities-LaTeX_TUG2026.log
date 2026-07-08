@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  8 JUL 2026 14:48
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  8 JUL 2026 14:49
  restricted system commands enabled.
 **Stephan-Corey_Humanities-LaTeX_TUG2026.tex
 (./Stephan-Corey_Humanities-LaTeX_TUG2026.tex
@@ -626,14 +626,88 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 
 
 ]
+Overfull \hbox (170.9578pt too wide) in paragraph at lines 114--114
+[]\TU/lmr/m/n/10 Ave|
+ []
+
+
+Overfull \hbox (162.18698pt too wide) in paragraph at lines 114--114
+\TU/lmr/m/n/10 Maria, |
+ []
+
+
+Overfull \hbox (173.19879pt too wide) in paragraph at lines 115--115
+[]\TU/lmr/m/n/10 Hail|
+ []
+
+
+Overfull \hbox (158.89038pt too wide) in paragraph at lines 115--115
+\TU/lmr/m/n/10 Mary, |
+ []
+
+
+Overfull \vbox (15.55997pt too high) detected at line 116
+ []
+
+
+Overfull \vbox (15.33997pt too high) detected at line 116
+ []
+
+
+Overfull \hbox (243.0pt too wide) in paragraph at lines 116--116
+[] |
+ []
+
+
+Overfull \hbox (170.73499pt too wide) in paragraph at lines 117--117
+[]\TU/lmr/m/n/10 gra-|
+ []
+
+
+Overfull \hbox (146.93658pt too wide) in paragraph at lines 117--117
+\TU/lmr/m/n/10 tia|
+ []
+
+
+Overfull \hbox (159.70757pt too wide) in paragraph at lines 117--117
+\TU/lmr/m/n/10 plena, |
+ []
+
+
+Overfull \hbox (169.39638pt too wide) in paragraph at lines 118--118
+[]\TU/lmr/m/n/10 full|
+ []
+
+
+Overfull \hbox (143.39879pt too wide) in paragraph at lines 118--118
+\TU/lmr/m/n/10 of|
+ []
+
+
+Overfull \hbox (159.17838pt too wide) in paragraph at lines 118--118
+\TU/lmr/m/n/10 grace, |
+ []
+
+
+Overfull \vbox (24.92996pt too high) detected at line 119
+ []
+
+
+Overfull \vbox (27.44997pt too high) detected at line 119
+ []
+
+
+Overfull \hbox (243.0pt too wide) in paragraph at lines 119--119
+[] |
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 131.
- [902
+[902
 
-]
-(./Stephan-Corey_Humanities-LaTeX_TUG2026.aux)
+] (./Stephan-Corey_Humanities-LaTeX_TUG2026.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -644,14 +718,14 @@ has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14796 strings out of 476076
+ 14798 strings out of 476076
  156557,794899 words of node,token memory allocated
- 535 words of node memory still in use:
+ 530 words of node memory still in use:
    5 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 4 glyph, 9 
-attribute, 55 glue_spec, 9 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:621,3:394,4:176,5:1058,6:78,7:16805,8:44,9:747,10:12,11:12
+attribute, 54 glue_spec, 9 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:2,2:621,3:394,4:176,5:1059,6:78,7:16805,8:44,9:747,10:12,11:12
 35
- 37028 multiletter control sequences out of 65536+600000
+ 37030 multiletter control sequences out of 65536+600000
  45 fonts using 3501983 bytes
  87i,7n,86p,1034b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/
@@ -665,7 +739,7 @@ re/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf-di
 st/fonts/opentype/public/lm/lmromanslant9-regular.otf></usr/share/texmf-dist/fon
 ts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy9.pfb>
-Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (2 pages, 58727 byt
+Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (2 pages, 59213 byt
 es).
 
 PDF statistics: 123 PDF objects out of 1000 (max. 8388607)
