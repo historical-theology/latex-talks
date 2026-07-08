@@ -1,10 +1,10 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  8 JUL 2026 12:14
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  8 JUL 2026 14:41
  restricted system commands enabled.
-**Stephan-Corey_Humanities-LaTeX_TUG2026.tex
+**sampleart.tex
 
 ! Emergency stop.
-<*> Stephan-Corey_Humanities-LaTeX_TUG2026.tex
-                                              
+<*> sampleart.tex
+                 
 *** (job aborted, file error in nonstop mode)
 
 

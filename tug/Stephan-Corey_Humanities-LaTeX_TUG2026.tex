@@ -37,7 +37,6 @@
 
 % Corey Stephan's package declarations
 \usepackage{polyglossia}
-\usepackage{listings}
 \usepackage{parallel}
 \usepackage{hologo}
 
@@ -111,16 +110,20 @@ I (a theologian) might typeset the opening words of the Christian prayer \textit
 \end{Parallel}	
 \end{verbatim}
 
-\begin{Parallel}{0em}{0em}
-\ParallelLText{Ave Maria,}
-\ParallelRText{Hail Mary,}
-\ParallelPar
-\ParallelLText{gratia plena,}
-\ParallelRText{full of grace,}
-\ParallelPar
-\end{Parallel}	
+%\begin{Parallel}{0em}{0em}
+%\ParallelLText{Ave Maria,}
+%\ParallelRText{Hail Mary,}
+%\ParallelPar
+%\ParallelLText{gratia plena,}
+%\ParallelRText{full of grace,}
+%\ParallelPar
+%\end{Parallel}	
 
-\section{Abbreviation macros and typing}
+\section{Advanced parallel text in \LaTeX}
+
+For advanced scholarly setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \texttt{reledpar} (for parallel typesetting specifically) and \texttt{reledmac} (for typesetting academic editions in general), which are bundled with \hologo{TeXLive} and other \LaTeX\ distributions.
+
+\texttt{reledpar} and \texttt{reledmac} are purpose-built for long-form academic parallel texts. These two packages are meant to replace older methods of academic parallel text preparation in \LaTeX\ that one might find in Web searches. For full documentation, visit \url{ctan.org/pkg/reledpar} and \url{ctan.org/pkg/reledmac}.
 
 
 
