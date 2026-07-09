@@ -39,6 +39,8 @@
 \usepackage{polyglossia}
 \usepackage{parallel}
 \usepackage{hologo}
+\usepackage[olddefault]{fontsetup}
+
 
 \begin{document}
 	
@@ -99,25 +101,31 @@ This is the basic format for parallel text set with the package \texttt{parallel
 \end{verbatim}}
 I (a theologian) might typeset the opening words of the Christian prayer \textit{Ave Maria} in their traditional Latin with parallel English like so:
 
-\begin{verbatim}
-\begin{Parallel}{0mm}{0mm}
+{\small \begin{verbatim}
+\begin{Parallel}{0em}{0em}
 	\ParallelLText{Ave Maria,}
 	\ParallelRText{Hail Mary,}
 		\ParallelPar
-	\ParallelLText{gratia plena,}
-	\ParallelRText{full of grace,}
+	\ParallelLText{gratia plena \ldots}
+	\ParallelRText{full of grace \ldots}
 		\ParallelPar
 \end{Parallel}	
-\end{verbatim}
+\end{verbatim}}
+
+
 Here is the result:
+
+\medskip
+\begin{minipage}{.4\textwidth}
 \begin{Parallel}{0em}{0em}
 \ParallelLText{Ave Maria,}
 \ParallelRText{Hail Mary,}
 \ParallelPar
-\ParallelLText{gratia plena,}
-\ParallelRText{full of grace,}
+\ParallelLText{gratia plena \ldots}
+\ParallelRText{full of grace \ldots}
 \ParallelPar
-\end{Parallel}	
+\end{Parallel}
+\end{minipage}
 
 \section{Advanced parallel text in \LaTeX}
 
@@ -160,7 +168,7 @@ Then, after the beginning of the document but before actual type, declare the la
 
 One is able to use one of the `other' declared languages (in this case, ancient Greek) by toggling it when needed.
 
-A language may be toggled for a long excerpt like so:
+A declared foreign or ancient language may be toggled for a long excerpt like so:
 
 {\small \begin{verbatim}
 \begin{greek}
@@ -168,20 +176,47 @@ A language may be toggled for a long excerpt like so:
 	...
 \end{greek}
 \end{verbatim}}
-For example, here is the famous opening to John's Gospel:
+%
+For example, this is how one could set the famous opening line of John's Gospel:
 {\small \begin{verbatim}
 \begin{greek}
 ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
 καὶ θεὸς ἦν ὁ λόγος. \\
 \end{greek}
-\end{verbatim}}
-
-\begin{greek}
-ἐν ἀρχῇ ἦν ὁ λόγος, \\
+\end{verbatim}} 
+%
+Here is the clean result: \\
+\begin{greek}ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
 καὶ θεὸς ἦν ὁ λόγος. \\
+\end{greek} 
+%
+For another example, here are the first words of Homer's \titleref{The Iliad}:
+%
+{\small \begin{verbatim}
+\begin{greek}
+μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
 \end{greek}
+\end{verbatim}} 
+%
+Here is the equally clean result: \\
+\begin{greek}μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
+\end{greek} 
+
+
+A declared language may be toggled for a single word or line like so:
+
+{\small \begin{verbatim}
+\text<language>{<text in language>}
+\end{verbatim}}
+%
+This might be used to insert a keyword, e.g. \break 
+{\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), inside running prose.
+
+\section{Combining \texttt{parallel} and \texttt{polyglossia}}
 
 
 
