@@ -71,11 +71,11 @@ To show how thinking about digital typesetting in terms of document structure ra
 There are many ways to set parallel text in \LaTeX. The simplest is to use the community package called \texttt{parallel}, which is included in \hologo{TeXLive}, \hologo{MiKTeX}, and other \LaTeX\ distrubtions. For full documentation, visit \url{https://ctan.org/pkg/parallel}.
 
 To start using \texttt{parallel} in any \LaTeX\ document, include the following in the preamble:
-{\small \begin{verbatim}
+\begin{verbatim}
 \usepackage{parallel}
-\end{verbatim}}
+\end{verbatim}
 For example, here is an abbreviation of the preamble to the Beamer file for my talk at \TUG\ 2026 (\url{github.com/historical-theology/latex-talks/}) with only the most important entries, including \texttt{parallel}:
-{\small \begin{verbatim}
+\begin{verbatim}
 \documentclass[aspectratio=169]{beamer}
 \usetheme{Goettingen}
 
@@ -86,22 +86,22 @@ For example, here is an abbreviation of the preamble to the Beamer file for my t
 \author{Corey Stephan, Ph.D.}
 
 \begin{document}
-\end{verbatim}}
+\end{verbatim}
 
 This is the basic format for parallel text set with the package \texttt{parallel}:
 
-{\small \begin{verbatim}
-\begin{Parallel}{}<left space>}{<right space>}
+\begin{verbatim}
+\begin{Parallel}{}<L space>}{<R space>}
 \ParallelLText{<left text row 1>}
 \ParallelRText{<right text row 1>}
 \ParallelPar
 \ParallelLText{<left text row 2>}
 [and so on]
 \end{Parallel}	
-\end{verbatim}}
+\end{verbatim}
 I (a theologian) might typeset the opening words of the Christian prayer \textit{Ave Maria} in their traditional Latin with parallel English like so:
 
-{\small \begin{verbatim}
+\begin{verbatim}
 \begin{Parallel}{0em}{0em}
 	\ParallelLText{Ave Maria,}
 	\ParallelRText{Hail Mary,}
@@ -110,7 +110,7 @@ I (a theologian) might typeset the opening words of the Christian prayer \textit
 	\ParallelRText{full of grace \ldots}
 		\ParallelPar
 \end{Parallel}	
-\end{verbatim}}
+\end{verbatim}
 
 
 Here is the result:
@@ -154,41 +154,42 @@ To learn \texttt{polyglossia}, I recommend the package's official documentation 
 Here, I will model \texttt{polyglossia}, which is what I happen to be familiar with using for polytonic (ancient and Byzantine) Greek.
 
 First, include the package in the preamble:
-{\small \begin{verbatim}
+\begin{verbatim}
 \usepackage{polyglossia}
 \end{verbatim} 
-}
+
 Then, after the beginning of the document but before actual type, declare the languages and their variants. For example, here is this .tex file's \texttt{polyglossia} declarations:
 
-{\small \begin{verbatim}
+\begin{verbatim}
 \begin{document}
 	\setdefaultlanguage{english}
 	\setotherlanguage[variant=ancient]{greek}
-\end{verbatim}}
+\end{verbatim}
 
 One is able to use one of the `other' declared languages (in this case, ancient Greek) by toggling it when needed.
 
 A declared foreign or ancient language may be toggled for a long excerpt like so:
 
-{\small \begin{verbatim}
+\begin{verbatim}
 \begin{greek}
 	<greek text>
 	...
 \end{greek}
-\end{verbatim}}
-%
+\end{verbatim}
+
 For example, this is how one could set the famous opening verse of John's Gospel:
 %
-{\small \begin{verbatim}
+\begin{verbatim}
 \begin{greek}
 ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
 καὶ θεὸς ἦν ὁ λόγος. \\
 \end{greek}
-\end{verbatim}}
+\end{verbatim}
 %
+
 Here is the clean result:
-\\
+%
 \begin{greek} \\
 ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
@@ -196,28 +197,30 @@ Here is the clean result:
 \end{greek} 
 \\
 For another example, here are the first two lines of Homer's \titleref{The Iliad}:
-%
-{\small \begin{verbatim}
+
+\begin{verbatim}
 \begin{greek}
 μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
-οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε \ldots
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
 \end{greek}
-\end{verbatim}} 
+\end{verbatim}
 %
-The result is equally clean to that of John 1:1, even for these particular words of Homer with their more complicated accent and breathing marks:
+
+The result is equally clean to that of John 1:1, even for these particular words of Homer with their more complicated accent and breathing marks: \\
 \\
 \begin{greek}\\
 μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
-οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε \ldots
-\end{greek} \\
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
+\end{greek} 
+\\
 %
 
 
 A declared language may be toggled for a single word or line (rather than a series of verses or lines) in this way:
-%
-{\small \begin{verbatim}
+
+\begin{verbatim}
 \text<language>{<text in language>}
-\end{verbatim}}
+\end{verbatim}
 %
 This mid-line toggling style be used to insert a keyword in that declared language, e.g. {\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), inside running prose in another language, such as the document's primary one.
 
@@ -227,25 +230,22 @@ The simplest way of setting multilingual text in parallel is with \texttt{parall
 
 Here is an example of \texttt{parallel} and \texttt{polyglossia} working in combination to display my own translation from the opening chapter of my recently published historical monograph \titleref{Maximus the Confessor's Thomistic Legacy} (Pontifical Institute of Medi\ae val Studies: Toronto, 2026):
 
-{\scriptsize \begin{verbatim}
-\begin{Parallel}{0mm}{0mm}
-\textgreek{\ParallelLText{Νῦν συγχορεύεις ἀληθῶς}}
-\ParallelRText{Now, truly, you celebrate together}
+\begin{verbatim}
+\begin{Parallel}{0em}{0em}
+\textgreek{\ParallelLText
+	{Νῦν συγχορεύεις ἀληθῶς}}
+\ParallelRText
+	{Now, truly, you celebrate together}
 	\ParallelPar
-\textgreek{\ParallelLText{σὺν τοῖς λοιποῖς θεολόγοις}}
-\ParallelRText{with the rest of the theologians}
 [and so on]
 \end{Parallel}	
-\end{verbatim}}
+\end{verbatim}
 
 
-For a conference or classroom handout, the result might look like this:
+For a conference or classroom handout, the result might look like Figure 1: ``Canon in Honor of Thomas Aquinas,'' Ode 3, which is shown on the next page.\footnote{The Greek text in Figure 1 is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \titleref{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58.}
 
-\medskip``Canon in Honor of Thomas Aquinas,'' Ode 3\footnote{The Greek text is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \emph{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58.} \\
-Translated by Corey Stephan, Ph.D. \\
-
-\medskip\begin{minipage}{.5\textwidth}
-{\tiny \begin{Parallel}{0mm}{0mm}
+\begin{figure*}
+\begin{Parallel}{0em}{0em}
 \textgreek{\ParallelLText{Νῦν συγχορεύεις ἀληθῶς}}
 \ParallelRText{Now, truly, you celebrate together}
 \ParallelPar
@@ -292,16 +292,17 @@ Translated by Corey Stephan, Ph.D. \\
 \textgreek{\ParallelLText{τριάδα, πάτερ, τὴν ἄκτιστον.}}
 \ParallelRText{O Father, about the Uncreated Trinity.}
 \ParallelPar
-\end{Parallel}}	
-\end{minipage}\\
+\end{Parallel}
+\caption{``Canon in Honor of Thomas Aquinas,'' Ode 3}
+\end{figure*}
 
 \section{Other \LaTeX\ tools for scholars of humanities}
 
 There are many \LaTeX\ tools that can assist work across the humanities disciplines. Here is a succinct, curated list of the most broadly applicable:
 
 \begin{itemize}
-	\item \BibLaTeX\ offers a comprehensive citation and bibliography management system that is capable of being interlinked with a variety of citation managers \Dash notably, for academic research, Zotero and JabRef.
-		\subitem \BibLaTeX\ is built into \hologo{TeXLive} and other \LaTeX\ distributions.
+	\item Either \BibLaTeX\ or the older but still useful \BibTeX\ offers a comprehensive citation and bibliography management system that is capable of being interlinked with a variety of citation managers \Dash notably, for academic research, Zotero and JabRef.
+		\subitem \BibLaTeX\ and \BibTeX\ are both built into \hologo{TeXLive} and other \LaTeX\ distributions.
 	
 	\item The free and open source graphical software application \texttt{TeXstudio} (\url{texstudio.org}) offers a \LaTeX\ -specific writing environment with comfortable features like intuitive autocompletion of \LaTeX\ commands.
 		\subitem \LaTeX\ may be written in any plain text editor, but a designated environment improves efficiency and helps avoid code errors.
