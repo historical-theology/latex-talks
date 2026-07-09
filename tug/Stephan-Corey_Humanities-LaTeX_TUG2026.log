@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  9 JUL 2026 08:45
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  9 JUL 2026 12:45
  restricted system commands enabled.
 **Stephan-Corey_Humanities-LaTeX_TUG2026.tex
 (./Stephan-Corey_Humanities-LaTeX_TUG2026.tex
@@ -2537,14 +2537,14 @@ Package microtype Warning: Unknown slot number of character
 
 ] [902]
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 190
+t line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 190
+input line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2552,14 +2552,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 190
+t line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 190
+on input line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2717,14 +2717,14 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `NCM-TU'.
 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 190
+t line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 190
+input line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2732,14 +2732,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 190
+t line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 190
+on input line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2747,14 +2747,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 190
+t line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 190
+input line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2762,14 +2762,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 190
+t line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 190
+on input line 192
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2777,14 +2777,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 205
+t line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 205
+input line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2792,14 +2792,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 205
+t line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 205
+on input line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2807,14 +2807,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 205
+t line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 205
+input line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2822,14 +2822,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 205
+t line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 205
+on input line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2837,14 +2837,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 205
+t line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 205
+input line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2852,29 +2852,34 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 205
+t line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 205
+on input line 209
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
+
+ []
+
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 217
+t line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 217
+input line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2882,14 +2887,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 217
+t line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 217
+on input line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2897,14 +2902,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 217
+t line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 217
+input line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2912,14 +2917,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 217
+t line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 217
+on input line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2927,14 +2932,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 217
+t line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 217
+input line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2942,21 +2947,2185 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 217
+t line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 217
+on input line 222
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
 (polyglossia)                for \l@greek instead
 
 \l@ancientgreek = a dialect from \language\l@greek 
-[903
+
+Overfull \hbox (5.92813pt too wide) in paragraph at lines 228--229
+[]\TU/NewCM10-Regular.otf(0)/m/n/10 Here is an ex-am-ple of \TU/NewCMMono10-Reg
+ular.otf(0)/m/n/10 parallel \TU/NewCM10-Regular.otf(0)/m/n/10 and \TU/NewCMMono
+10-Regular.otf(0)/m/n/10 polyglossia|
+ []
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FBC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F88.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F89.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FCC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F98.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F99.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FFC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA8.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA9.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAA.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAB.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAD.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAE.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAF.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/a.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/e.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/k.alt'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/r.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/m.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/n.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FBC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F88.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F89.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FCC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F98.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F99.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FFC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA8.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA9.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAA.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAB.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAD.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAE.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAF.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/a.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/e.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/k.alt'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/r.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/m.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/n.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/a.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/e.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/k.alt'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/r.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/m.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/n.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-it-TU'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FBC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F88.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F89.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FCC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F98.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F99.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FFC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA8.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA9.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAA.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAB.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAD.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAE.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAF.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/a.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/e.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/k.alt'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/r.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/m.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/n.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FBC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F88.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F89.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F8F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FCC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F98.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F99.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9A.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9B.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9C.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9D.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9E.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1F9F.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FFC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA8.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FA9.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAA.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAB.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAD.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAE.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FAF.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/a.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/e.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/k.alt'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/r.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/m.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/n.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 249
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 252
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 255
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 259
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 262
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 265
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 268
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 274
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 277
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 280
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 283
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 286
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 289
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
+input line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@monogreek = a dialect from \language\l@greek 
+Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
+t line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+\l@greek = a dialect from \language\l@nohyphenation 
+Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
+on input line 292
+
+Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
+(polyglossia)                Greek\MessageBreak I will use the patterns loaded
+(polyglossia)                for \l@greek instead
+
+\l@ancientgreek = a dialect from \language\l@greek 
+
+Overfull \hbox (29.0pt too wide) in paragraph at lines 247--297
+[]$[]$ |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--297
+
+ []
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FBC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FCC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/uni1FFC.alt'
+(microtype)                in font encoding `TU' in protrusion list 
+(microtype)                `NCM-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/a.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/e.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/k.alt'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/r.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/m.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/n.end'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `NCM-TU'.
+
+[903] [904
 
 ] (./Stephan-Corey_Humanities-LaTeX_TUG2026.aux)
  ***********
@@ -2965,20 +5134,20 @@ L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Stephan-Corey_Humanities-LaTeX_TUG2026.out' 
 has not changed.
-(rerunfilecheck)             Checksum: E5560E5ED9872F273B53C5FCFB6293D3;1383.
+(rerunfilecheck)             Checksum: EB57470812F9CB59EA05B8ED14C53DDE;1664.
 )
 
 Here is how much of LuaTeX's memory you used:
- 20619 strings out of 476076
- 156557,1373583 words of node,token memory allocated
- 642 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 4 glyph, 15
- attribute, 58 glue_spec, 15 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:4,2:808,3:425,4:184,5:1074,6:108,7:17095,8:43,9:755,10:12,11:1
-245
- 42751 multiletter control sequences out of 65536+600000
- 119 fonts using 97171135 bytes
- 101i,7n,125p,1034b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 20651 strings out of 476076
+ 156561,1373583 words of node,token memory allocated
+ 666 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 5 kern, 1 penalty, 4 glyph, 18
+ attribute, 58 glue_spec, 18 attribute_list, 1 write, 5 pdf_action nodes
+   avail lists: 1:3,2:989,3:528,4:188,5:1085,6:170,7:17267,8:43,9:774,10:14,11:1
+280
+ 42780 multiletter control sequences out of 65536+600000
+ 133 fonts using 112916307 bytes
+ 101i,8n,125p,1034b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMath-Regular
 .otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMono10-
 Bold.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMon
@@ -2987,11 +5156,11 @@ ewCM10-Italic.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern
 /NewCM08-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
 ern/NewCM10-Bold.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
 ern/NewCM10-Regular.otf>
-Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (3 pages, 53143 byt
+Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (4 pages, 72965 byt
 es).
 
-PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 1048576)
- 57 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 143 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 1048576)
+ 65 words of extra memory for PDF output out of 10000 (max. 100000000)
 

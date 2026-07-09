@@ -51,7 +51,7 @@
 \maketitle
 
 \begin{abstract}
-{\LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \LaTeX's utility for scholars in humanities disciplines, however, tends to be overlooked. In this tutorial, I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as poetry and translations. The specific example is preparing a handout for a historical conference or class presentation with excerpts of ancient Greek and parallel English translations. Ultimately, I aim to inspire colleagues in religious, historical, philosophical, and related areas to think of \LaTeX\ as having a wide range of professional applications even inside these scholarly fields in which \LaTeX\ is not widespread.}
+{\LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \LaTeX's utility for scholars in humanities disciplines, however, tends to be overlooked. In this tutorial, I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs, such as poetry and translations. The specific example is preparing a handout for a historical conference or class presentation with excerpts of ancient Greek and parallel English translations. Additionally, I provide some general recommendations for learning and employing \LaTeX\ across the humanities disciplines. I aim to inspire colleagues in religious, historical, philosophical, and related areas to think of \LaTeX\ as having a wide range of professional applications even inside these scholarly fields in which \LaTeX\ is not widespread.}
 \end{abstract}
 
 \section{Introduction}
@@ -177,46 +177,143 @@ A declared foreign or ancient language may be toggled for a long excerpt like so
 \end{greek}
 \end{verbatim}}
 %
-For example, this is how one could set the famous opening line of John's Gospel:
+For example, this is how one could set the famous opening verse of John's Gospel:
+%
 {\small \begin{verbatim}
 \begin{greek}
 ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
 καὶ θεὸς ἦν ὁ λόγος. \\
 \end{greek}
-\end{verbatim}} 
+\end{verbatim}}
 %
-Here is the clean result: \\
-\begin{greek}ἐν ἀρχῇ ἦν ὁ λόγος, \\
+Here is the clean result:
+\\
+\begin{greek} \\
+ἐν ἀρχῇ ἦν ὁ λόγος, \\
 καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, \\
 καὶ θεὸς ἦν ὁ λόγος. \\
 \end{greek} 
-%
-For another example, here are the first words of Homer's \titleref{The Iliad}:
+\\
+For another example, here are the first two lines of Homer's \titleref{The Iliad}:
 %
 {\small \begin{verbatim}
 \begin{greek}
 μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
-οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε \ldots
 \end{greek}
 \end{verbatim}} 
 %
-Here is the equally clean result: \\
-\begin{greek}μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
-οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
-\end{greek} 
+The result is equally clean to that of John 1:1, even for these particular words of Homer with their more complicated accent and breathing marks:
+\\
+\begin{greek}\\
+μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε \ldots
+\end{greek} \\
+%
 
 
-A declared language may be toggled for a single word or line like so:
-
+A declared language may be toggled for a single word or line (rather than a series of verses or lines) in this way:
+%
 {\small \begin{verbatim}
 \text<language>{<text in language>}
 \end{verbatim}}
 %
-This might be used to insert a keyword, e.g. \break 
-{\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), inside running prose.
+This mid-line toggling style be used to insert a keyword in that declared language, e.g. {\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), inside running prose in another language, such as the document's primary one.
 
 \section{Combining \texttt{parallel} and \texttt{polyglossia}}
+
+The simplest way of setting multilingual text in parallel is with \texttt{parallel}, as was shown in section (2). Since \texttt{parallel} can be tedious to organize for more than a stanza/paragraph or two, I remind the reader of \texttt{reledpar} and \texttt{reledmac} for longer and/or more complicated parallel text displays, as I recommended in section (3).
+
+Here is an example of \texttt{parallel} and \texttt{polyglossia} working in combination to display my own translation from the opening chapter of my recently published historical monograph \titleref{Maximus the Confessor's Thomistic Legacy} (Pontifical Institute of Medi\ae val Studies: Toronto, 2026):
+
+{\scriptsize \begin{verbatim}
+\begin{Parallel}{0mm}{0mm}
+\textgreek{\ParallelLText{Νῦν συγχορεύεις ἀληθῶς}}
+\ParallelRText{Now, truly, you celebrate together}
+	\ParallelPar
+\textgreek{\ParallelLText{σὺν τοῖς λοιποῖς θεολόγοις}}
+\ParallelRText{with the rest of the theologians}
+[and so on]
+\end{Parallel}	
+\end{verbatim}}
+
+
+For a conference or classroom handout, the result might look like this:
+
+\medskip``Canon in Honor of Thomas Aquinas,'' Ode 3\footnote{The Greek text is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \emph{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58.} \\
+Translated by Corey Stephan, Ph.D. \\
+
+\medskip\begin{minipage}{.5\textwidth}
+{\tiny \begin{Parallel}{0mm}{0mm}
+\textgreek{\ParallelLText{Νῦν συγχορεύεις ἀληθῶς}}
+\ParallelRText{Now, truly, you celebrate together}
+\ParallelPar
+\textgreek{\ParallelLText{σὺν τοῖς λοιποῖς θεολόγοις}}
+\ParallelRText{with the rest of the theologians}
+\ParallelPar
+\textgreek{\ParallelLText{καὶ τοῖς ἄλλοις θεολήπτοις ἀνδράσι,}}
+\ParallelRText{and the other divinely inspired men}
+\ParallelPar
+\ParallelRText{with the rest of the theologians}
+\textgreek{\ParallelLText{περὶ τὸν θρόνον Χριστοῦ}}
+\ParallelRText{around the throne of Christ,}
+\ParallelPar
+\textgreek{\ParallelLText{τὸν ἱερὸν ἐξᾴδοντες}}
+\ParallelRText{singing the sacred}
+\ParallelPar
+\textgreek{\ParallelLText{καὶ τρισάγιον ὕμνον}}
+\ParallelRText{and Thrice-Holy Hymn}
+\ParallelPar
+\textgreek{\ParallelLText{σὺν ταῖς ἁγίαις δυνάμεσιν.}}
+\ParallelRText{with the holy powers.}
+\ParallelPar
+
+\vspace{1em}
+
+\textgreek{\ParallelLText{Ἔνθα πατέρων ὁ χορὸς}}
+\ParallelRText{Where there is the chorus of Fathers}
+\ParallelPar
+\textgreek{\ParallelLText{καὶ ἱερῶν θεολόγων}}
+\ParallelRText{and holy theologians,}
+\ParallelPar
+\textgreek{\ParallelLText{ὡς ὑψίνους καὶ λεπτὸς θεόλογος}}
+\ParallelRText{as a high-minded and subtle theologian}
+\ParallelPar
+\textgreek{\ParallelLText{κατεσκήνωσας, Θωμᾶ,}}
+\ParallelRText{you do abide, Thomas,}
+\ParallelPar
+\textgreek{\ParallelLText{σὺν τούτοις αὐλιζόμενος,}}
+\ParallelRText{dwelling with them,}
+\ParallelPar
+\textgreek{\ParallelLText{θεολογῶν ἀπαύστως}}
+\ParallelRText{unceasingly theologizing,}
+\ParallelPar
+\textgreek{\ParallelLText{τριάδα, πάτερ, τὴν ἄκτιστον.}}
+\ParallelRText{O Father, about the Uncreated Trinity.}
+\ParallelPar
+\end{Parallel}}	
+\end{minipage}\\
+
+\section{Other \LaTeX\ tools for scholars of humanities}
+
+There are many \LaTeX\ tools that can assist work across the humanities disciplines. Here is a succinct, curated list of the most broadly applicable:
+
+\begin{itemize}
+	\item \BibLaTeX\ offers a comprehensive citation and bibliography management system that is capable of being interlinked with a variety of citation managers \Dash notably, for academic research, Zotero and JabRef.
+		\subitem \BibLaTeX\ is built into \hologo{TeXLive} and other \LaTeX\ distributions.
+	
+	\item The free and open source graphical software application \texttt{TeXstudio} (\url{texstudio.org}) offers a \LaTeX\ -specific writing environment with comfortable features like intuitive autocompletion of \LaTeX\ commands.
+		\subitem \LaTeX\ may be written in any plain text editor, but a designated environment improves efficiency and helps avoid code errors.
+		\subitem \texttt{TeXstudio} is included in the official software repositories of most libre Unix-like operating systems (GNU/Linux and BSD).
+	
+	\item By running search queries in \CTAN, one may find community-built packages for many individual languages that are of relevance for historical or other academic research, e.g. \texttt{aramaic-serto} for the ancient Middle-Eastern language Syriac (Aramaic).
+	
+	\item \texttt{microtype} offers many small adjustments to type, such as improved automatic justification and hyphenation.
+		\subitem This article is a working example of the \texttt{microtype} package in-use.
+\end{itemize}
+
+
 
 
 
