@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  10 JUL 2026 12:29
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.5.31)  11 JUL 2026 07:54
  restricted system commands enabled.
 **Stephan-Corey_Humanities-LaTeX_TUG2026.tex
 (./Stephan-Corey_Humanities-LaTeX_TUG2026.tex
@@ -2547,21 +2547,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--132
  []
 
 
-Overfull \hbox (16.58148pt too wide) in paragraph at lines 164--165
-\TU/NewCM10-Regular.otf(0)/m/n/10 vari-ants. For ex-am-ple, here is this .tex fi
-le’s \TU/NewCMMono10-Regular.otf(0)/m/n/10 polyglossia|
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 135.
+
+
+Overfull \hbox (4.49806pt too wide) in paragraph at lines 143--144
+\TU/NewCM10-Regular.otf(0)/m/n/10 with non-Latin al-pha-bets are \TU/NewCMMono1
+0-Regular.otf(0)/m/n/10 babel \TU/NewCM10-Regular.otf(0)/m/n/10 and \TU/NewCMMo
+no10-Regular.otf(0)/m/n/10 polyglossia\TU/NewCM10-Regular.otf(0)/m/n/10 ,|
  []
 
-[902]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [902]
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 196
+t line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 196
+input line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2569,14 +2577,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 196
+t line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 196
+on input line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2734,14 +2742,14 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `NCM-TU'.
 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 196
+t line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 196
+input line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2749,14 +2757,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 196
+t line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 196
+on input line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2764,14 +2772,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 196
+t line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 196
+input line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2779,14 +2787,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 196
+t line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 196
+on input line 193
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2794,14 +2802,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 214
+t line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 214
+input line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2809,14 +2817,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 214
+t line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 214
+on input line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2824,14 +2832,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 214
+t line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 214
+input line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2839,14 +2847,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 214
+t line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 214
+on input line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2854,14 +2862,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 214
+t line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 214
+input line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2869,14 +2877,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 214
+t line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 214
+on input line 210
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2884,24 +2892,19 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--220
+Underfull \hbox (badness 10000) in paragraph at lines 208--215
 
  []
 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 228
+t line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 228
+input line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2909,14 +2912,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 228
+t line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 228
+on input line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2924,14 +2927,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 228
+t line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 228
+input line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2939,14 +2942,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 228
+t line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 228
+on input line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2954,14 +2957,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 228
+t line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 228
+input line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2969,14 +2972,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 228
+t line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 228
+on input line 223
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -2984,16 +2987,18 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 
-Underfull \vbox (badness 3271) has occurred while \output is active []
-
-
-Overfull \hbox (5.92813pt too wide) in paragraph at lines 234--235
+Overfull \hbox (5.92813pt too wide) in paragraph at lines 229--230
 []\TU/NewCM10-Regular.otf(0)/m/n/10 Here is an ex-am-ple of \TU/NewCMMono10-Reg
 ular.otf(0)/m/n/10 parallel \TU/NewCM10-Regular.otf(0)/m/n/10 and \TU/NewCMMono
 10-Regular.otf(0)/m/n/10 polyglossia|
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/uni1FBC.alt'
 (microtype)                in font encoding `TU' in protrusion list 
@@ -3444,14 +3449,14 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `NCM-it-TU'.
 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 253
+t line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 253
+input line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3459,14 +3464,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 253
+t line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 253
+on input line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3474,14 +3479,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 253
+t line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 253
+input line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3489,14 +3494,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 253
+t line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 253
+on input line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3504,14 +3509,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 253
+t line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 253
+input line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3519,14 +3524,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 253
+t line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 253
+on input line 248
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3534,14 +3539,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 256
+t line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 256
+input line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3549,14 +3554,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 256
+t line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 256
+on input line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3564,14 +3569,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 256
+t line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 256
+input line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3579,14 +3584,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 256
+t line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 256
+on input line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3594,14 +3599,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 256
+t line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 256
+input line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3609,14 +3614,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 256
+t line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 256
+on input line 251
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3624,14 +3629,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 259
+t line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 259
+input line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3639,14 +3644,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 259
+t line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 259
+on input line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3654,14 +3659,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 259
+t line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 259
+input line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3669,14 +3674,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 259
+t line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 259
+on input line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3684,14 +3689,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 259
+t line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 259
+input line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3699,14 +3704,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 259
+t line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 259
+on input line 254
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3714,14 +3719,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 263
+t line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 263
+input line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3729,14 +3734,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 263
+t line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 263
+on input line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3744,14 +3749,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 263
+t line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 263
+input line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3759,14 +3764,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 263
+t line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 263
+on input line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3774,14 +3779,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 263
+t line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 263
+input line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3789,14 +3794,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 263
+t line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 263
+on input line 258
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3804,14 +3809,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 266
+t line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 266
+input line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3819,14 +3824,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 266
+t line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 266
+on input line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3834,14 +3839,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 266
+t line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 266
+input line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3849,14 +3854,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 266
+t line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 266
+on input line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3864,14 +3869,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 266
+t line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 266
+input line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3879,14 +3884,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 266
+t line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 266
+on input line 261
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3894,14 +3899,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 269
+t line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 269
+input line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3909,14 +3914,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 269
+t line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 269
+on input line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3924,14 +3929,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 269
+t line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 269
+input line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3939,14 +3944,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 269
+t line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 269
+on input line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3954,14 +3959,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 269
+t line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 269
+input line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3969,14 +3974,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 269
+t line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 269
+on input line 264
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3984,14 +3989,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 272
+t line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 272
+input line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -3999,14 +4004,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 272
+t line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 272
+on input line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4014,14 +4019,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 272
+t line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 272
+input line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4029,14 +4034,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 272
+t line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 272
+on input line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4044,14 +4049,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 272
+t line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 272
+input line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4059,14 +4064,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 272
+t line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 272
+on input line 267
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4074,14 +4079,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 278
+t line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 278
+input line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4089,14 +4094,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 278
+t line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 278
+on input line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4104,14 +4109,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 278
+t line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 278
+input line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4119,14 +4124,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 278
+t line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 278
+on input line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4134,14 +4139,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 278
+t line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 278
+input line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4149,14 +4154,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 278
+t line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 278
+on input line 273
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4164,14 +4169,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 281
+t line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 281
+input line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4179,14 +4184,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 281
+t line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 281
+on input line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4194,14 +4199,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 281
+t line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 281
+input line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4209,14 +4214,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 281
+t line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 281
+on input line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4224,14 +4229,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 281
+t line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 281
+input line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4239,14 +4244,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 281
+t line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 281
+on input line 276
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4254,14 +4259,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 284
+t line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 284
+input line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4269,14 +4274,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 284
+t line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 284
+on input line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4284,14 +4289,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 284
+t line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 284
+input line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4299,14 +4304,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 284
+t line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 284
+on input line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4314,14 +4319,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 284
+t line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 284
+input line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4329,14 +4334,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 284
+t line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 284
+on input line 279
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4344,14 +4349,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 287
+t line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 287
+input line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4359,14 +4364,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 287
+t line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 287
+on input line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4374,14 +4379,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 287
+t line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 287
+input line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4389,14 +4394,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 287
+t line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 287
+on input line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4404,14 +4409,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 287
+t line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 287
+input line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4419,14 +4424,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 287
+t line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 287
+on input line 282
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4434,14 +4439,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 290
+t line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 290
+input line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4449,14 +4454,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 290
+t line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 290
+on input line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4464,14 +4469,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 290
+t line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 290
+input line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4479,14 +4484,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 290
+t line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 290
+on input line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4494,14 +4499,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 290
+t line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 290
+input line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4509,14 +4514,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 290
+t line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 290
+on input line 285
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4524,14 +4529,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 293
+t line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 293
+input line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4539,14 +4544,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 293
+t line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 293
+on input line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4554,14 +4559,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 293
+t line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 293
+input line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4569,14 +4574,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 293
+t line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 293
+on input line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4584,14 +4589,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 293
+t line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 293
+input line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4599,14 +4604,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 293
+t line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 293
+on input line 288
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4614,14 +4619,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 296
+t line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 296
+input line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4629,14 +4634,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 296
+t line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 296
+on input line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4644,14 +4649,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 296
+t line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 296
+input line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4659,14 +4664,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 296
+t line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 296
+on input line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4674,14 +4679,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 296
+t line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 296
+input line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4689,14 +4694,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 296
+t line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 296
+on input line 291
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4704,14 +4709,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 302
+t line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 302
+input line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4719,14 +4724,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 302
+t line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 302
+on input line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4734,14 +4739,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 302
+t line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 302
+input line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4749,14 +4754,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 302
+t line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 302
+on input line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4764,14 +4769,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 302
+t line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 302
+input line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4779,14 +4784,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 302
+t line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 302
+on input line 297
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4794,14 +4799,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 305
+t line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 305
+input line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4809,14 +4814,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 305
+t line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 305
+on input line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4824,14 +4829,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 305
+t line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 305
+input line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4839,14 +4844,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 305
+t line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 305
+on input line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4854,14 +4859,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 305
+t line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 305
+input line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4869,14 +4874,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 305
+t line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 305
+on input line 300
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4884,14 +4889,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 308
+t line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 308
+input line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4899,14 +4904,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 308
+t line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 308
+on input line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4914,14 +4919,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 308
+t line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 308
+input line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4929,14 +4934,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 308
+t line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 308
+on input line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4944,14 +4949,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 308
+t line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 308
+input line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4959,14 +4964,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 308
+t line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 308
+on input line 303
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4974,14 +4979,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 311
+t line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 311
+input line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -4989,14 +4994,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 311
+t line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 311
+on input line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5004,14 +5009,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 311
+t line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 311
+input line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5019,14 +5024,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 311
+t line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 311
+on input line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5034,14 +5039,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 311
+t line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 311
+input line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5049,14 +5054,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 311
+t line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 311
+on input line 306
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5064,14 +5069,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 314
+t line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 314
+input line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5079,14 +5084,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 314
+t line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 314
+on input line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5094,14 +5099,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 314
+t line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 314
+input line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5109,14 +5114,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 314
+t line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 314
+on input line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5124,14 +5129,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 314
+t line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 314
+input line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5139,14 +5144,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 314
+t line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 314
+on input line 309
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5154,14 +5159,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 317
+t line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 317
+input line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5169,14 +5174,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 317
+t line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 317
+on input line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5184,14 +5189,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 317
+t line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 317
+input line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5199,14 +5204,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 317
+t line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 317
+on input line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5214,14 +5219,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 317
+t line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 317
+input line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5229,14 +5234,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 317
+t line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 317
+on input line 312
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5244,14 +5249,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 320
+t line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 320
+input line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5259,14 +5264,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 320
+t line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 320
+on input line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5274,14 +5279,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 320
+t line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 320
+input line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5289,14 +5294,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 320
+t line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 320
+on input line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5304,14 +5309,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 
 \l@ancientgreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 320
+t line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language monogreek not found in language.dat.lua on 
-input line 320
+input line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5319,14 +5324,14 @@ Package polyglossia Warning: No hyphenation patterns were loaded for Monotonic
 
 \l@monogreek = a dialect from \language\l@greek 
 Module polyglossia Warning: Language greek not found in language.dat.lua on inpu
-t line 320
+t line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `greek'
 (polyglossia)                I will use \language=\l@nohyphenation instead.
 
 \l@greek = a dialect from \language\l@nohyphenation 
 Module polyglossia Warning: Language ancientgreek not found in language.dat.lua 
-on input line 320
+on input line 315
 
 Package polyglossia Warning: No hyphenation patterns were loaded for Ancient
 (polyglossia)                Greek\MessageBreak I will use the patterns loaded
@@ -5423,39 +5428,27 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                in font encoding `TU' in protrusion list
 (microtype)                `NCM-TU'.
 
-[903] [904
-
-] (./Stephan-Corey_Humanities-LaTeX_TUG2026.aux)
+[903] [904] (./Stephan-Corey_Humanities-LaTeX_TUG2026.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-Package rerunfilecheck Warning: File `Stephan-Corey_Humanities-LaTeX_TUG2026.ou
-t' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Stephan-Corey_Humanities-LaTeX_TUG2
-026.out':
-(rerunfilecheck)             Before: D419751DDE7D05E6751734E67E2BEE59;1733
-(rerunfilecheck)             After:  56C3C7BE25345F76D158A26A981CED43;1565.
+Package rerunfilecheck Info: File `Stephan-Corey_Humanities-LaTeX_TUG2026.out' 
+has not changed.
+(rerunfilecheck)             Checksum: C2994C9D90E42DB18B3AC7F85BBFF18F;1868.
 )
 
 Here is how much of LuaTeX's memory you used:
- 20651 strings out of 476076
- 195703,1373583 words of node,token memory allocated
- 677 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 6 glue, 5 kern, 1 penalty, 4 glyph, 19
- attribute, 58 glue_spec, 19 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:4,2:1152,3:510,4:203,5:1130,6:153,7:17933,8:43,9:718,10:17,11:
-1398
+ 20650 strings out of 476076
+ 195702,1373583 words of node,token memory allocated
+ 667 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 6 glue, 5 kern, 1 penalty, 4 glyph, 18
+ attribute, 58 glue_spec, 18 attribute_list, 1 write, 4 pdf_action nodes
+   avail lists: 1:2,2:1122,3:511,4:201,5:1135,6:157,7:17868,8:43,9:692,10:17,11:
+1394
  42779 multiletter control sequences out of 65536+600000
- 129 fonts using 108426299 bytes
- 101i,8n,125p,1038b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.1'
+ 129 fonts using 108426407 bytes
+ 101i,8n,125p,1090b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMath-Regular
 .otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMono10-
 Bold.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMon
@@ -5464,11 +5457,11 @@ ewCM10-Italic.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern
 /NewCM08-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
 ern/NewCM10-Bold.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
 ern/NewCM10-Regular.otf>
-Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (4 pages, 70683 byt
+Output written on Stephan-Corey_Humanities-LaTeX_TUG2026.pdf (4 pages, 72357 byt
 es).
 
-PDF statistics: 144 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 1048576)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 138 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 1048576)
+ 57 words of extra memory for PDF output out of 10000 (max. 100000000)
 

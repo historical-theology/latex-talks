@@ -66,7 +66,7 @@ To learn \LaTeX\ as a scholar outside the disciplines in which \LaTeX\ is the no
 
 To show how thinking about digital typesetting in terms of document structure rather than final format can be of practical use in the humanities, here I present a tutorial in which I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs. The case study is preparing a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. The principles that I outline will be applicable to any presentation of parallel text and, more generally, all types of handouts that are common in humanities conferences and classrooms.
 
-\section{Simplest parallel text in \LaTeX}
+\section{Simplest side-by-side text in \LaTeX: \texttt{parallel}}
 
 There are many ways to set parallel text in \LaTeX. The simplest is to use the community package called \texttt{parallel}, which is included in \hologo{TeXLive}, \hologo{MiKTeX}, and other \LaTeX\ distrubtions. For full documentation, visit \url{ctan.org/pkg/parallel}.
 
@@ -130,27 +130,25 @@ Here is the result:
 \end{Parallel}
 \end{minipage}\\
 
-Using \texttt{parallel} makes it easy to typeset short sections of text in parallel in \LaTeX\ documents.
+\texttt{parallel} makes it easy to set short sections of text side-by-side in \LaTeX.
 
-\section{Advanced parallel text in \LaTeX}
+\section{Advanced parallel text in \LaTeX:\\ \texttt{reledpar} and \texttt{reledmac}}
 
-For advanced scholarly setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \texttt{reledpar} (for parallel typesetting specifically) and \texttt{reledmac} (for typesetting academic editions in general), which are bundled with \hologo{TeXLive} and other \LaTeX\ distributions.
+For more advanced setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \texttt{reledpar} (for parallel typesetting specifically) and \texttt{reledmac} (for typesetting academic editions in general), which are bundled with the major \LaTeX\ distributions.
 
-\texttt{reledpar} and \texttt{reledmac} are purpose-built for long-form academic parallel texts. These two packages are meant to replace older methods of academic parallel text preparation in \LaTeX\ that one might find in Web searches. For full documentation, visit \url{ctan.org/pkg/reledpar} and \url{ctan.org/pkg/reledmac}.
+\texttt{reledpar} and \texttt{reledmac} are purpose-built for lengthy side-by-side texts, especially in academic articles, books, and critical editions. These two packages are meant to replace older methods of academic parallel text preparation in \LaTeX\ that one might find in Web searches. For full documentation, visit \url{ctan.org/pkg/reledpar} and \url{ctan.org/pkg/reledmac}.
 
-\section{Setting non-Latin characters in \LaTeX}
+\section{Setting non-Latin characters in \LaTeX: \texttt{babel} and \texttt{polyglossia}}
 
-The most important packages for handling text outside Latin alphabets are \texttt{babel} and \texttt{polyglossia}, which are included in \hologo{TeXLive} and other \LaTeX\ distributions. Although it is possible to convert a project from one of these metapackages to the other, a scholar ought to invest the time to choose carefully between either of these two at the start of a long-form project.
+The most important \LaTeX\ packages for languages with non-Latin alphabets are \texttt{babel} and \texttt{polyglossia}, which are included in the major \LaTeX\ distributions. Although it is possible to convert a project from one of these metapackages to the other, a scholar ought to invest the time to choose carefully between either of these two at the start of a grand project.
 
-In \titleref{The \LaTeX\ Companion: 3rd Edition} (Addison-Wesley, 2023), Frank Mittelbach and Ulrike Fischer suggest that despite the fact that \texttt{babel} is older than \texttt{polyglossia}, \texttt{babel} generally is preferrable: ``Unless you are in a special situation where a language or script is notably better supported by \texttt{polyglossia}, the recommendation is to use \texttt{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). Since \texttt{babel} technically supports the same languages as \texttt{polyglossia}, a situation in which one would need \texttt{polyglossia} over \texttt{babel} will be rare. Yet, a scholar working with ancient languages might have such a rare situation.
+In \titleref{The \LaTeX\ Companion: 3rd Edition} (Addison-Wesley, 2023), Frank Mittelbach and Ulrike Fischer suggest that despite the fact that \texttt{babel} is older than \texttt{polyglossia}, \texttt{babel} generally is preferrable: ``Unless you are in a special situation where a language or script is notably better supported by \texttt{polyglossia}, the recommendation is to use \texttt{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). Since \texttt{babel} technically supports the same languages as \texttt{polyglossia}, a situation in which one would need \texttt{polyglossia} over \texttt{babel} is rare. Yet, a scholar working with an ancient language might face a situation in which, say, \texttt{polyglossia} actually supports that language better than \texttt{babel}. To make an informed choice against a given academic undertaking's particular requirements, one should explore each package's documentation at \url{ctan.org/pkg/babel} and \url{ctan.org/pkg/polyglossia}.
 
-In (old) Web forum discussions, one might read that \texttt{babel} will work better with \LuaLaTeX, whereas \texttt{polyglossia} will work better with \XeLaTeX. In 2026, however, one may choose either of the two mainline \LaTeX\ engines that are built with full Unicode support, that is, \XeLaTeX\ or \LuaLaTeX, for \texttt{babel} or \texttt{polyglossia}. Results might vary, however, depending on the specifics of a given project.
+In (old) Web forum discussions, one might read that \texttt{babel} will work better with the \LaTeX\ engine \LuaLaTeX, whereas \texttt{polyglossia} will work better with \XeLaTeX. As of the time of writing this essay, however, one may choose either of the two mainline \LaTeX\ engines that are built with full Unicode support, \XeLaTeX\ or \LuaLaTeX, for either \texttt{babel} or \texttt{polyglossia}. Results might vary depending on the specifics of a given project.
 
-To make an informed choice against a specific set of requirements for a given academic undertaking, one should explore each package's documentation at \url{ctan.org/pkg/babel} and \url{ctan.org/pkg/polyglossia}.
+To learn \texttt{babel}, I recommend Chapter 13: ``Localizing documents'' in \titleref{The \LaTeX\ Companion: 3rd Edition}. Here, Mittelbach and Fischer succinctly introduce localization in \LaTeX\ via \texttt{babel} in a practical, didactic style. Of course, the package's official documentation in \CTAN\ also ought to be consulted for assistance with complex arrangements.
 
-To learn \texttt{babel}, I recommend Chapter 13: ``Localizing documents'' in \titleref{The \LaTeX\ Companion: 3rd Edition} by Mittelbach and Fischer, which succinctly introduces localization in \LaTeX\ via \texttt{babel} in a practical, didactic (teaching) style.
-
-To learn \texttt{polyglossia}, I recommend the package's official documentation in \CTAN.
+To learn \texttt{polyglossia}, I recommend the package's documentation in \CTAN.
 
 \section{Starting a project with \texttt{polyglossia}}
 
@@ -161,7 +159,7 @@ First, include the package in the preamble:
 \usepackage{polyglossia}
 \end{verbatim} 
 
-Then, after the beginning of the document but before actual type, declare the languages and their variants. For example, here is this .tex file's \texttt{polyglossia} declarations:
+Then, after the beginning of the document but before actual type, declare the languages and their variants. For example, here is this .tex file's declarations:
 
 \begin{verbatim}
 \begin{document}
@@ -172,14 +170,14 @@ Then, after the beginning of the document but before actual type, declare the la
 One is able to use one of the `other' declared languages (in this case, ancient Greek) by toggling it when needed.
 
 A declared foreign or ancient language may be toggled for a long excerpt like so:
-
+%
 \begin{verbatim}
 \begin{greek}
 	<greek text>
 	...
 \end{greek}
 \end{verbatim}
-
+%
 For example, this is how one could set the famous opening verse of John's Gospel:
 %
 \begin{verbatim}
@@ -190,7 +188,6 @@ For example, this is how one could set the famous opening verse of John's Gospel
 \end{greek}
 \end{verbatim}
 %
-
 Here is the clean result:
 %
 \begin{greek} \\
@@ -208,15 +205,13 @@ For another example, here are the first two lines of Homer's \titleref{The Iliad
 \end{greek}
 \end{verbatim}
 %
-
-The result is equally clean to that of John 1:1, even for these particular words of Homer with their more complicated accent and breathing marks: \\
-\\
+The result is equally clean to that of John 1:1, even for these particular words of Homer with their more complicated accent and breathing marks:
+%
 \begin{greek}\\
 μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος \\
 οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
 \end{greek} 
 \\
-%
 
 
 A declared language may be toggled for a single word or line (rather than a series of verses or lines) in this way:
@@ -229,9 +224,9 @@ This mid-line toggling style be used to insert a keyword in that declared langua
 
 \section{Combining \texttt{parallel} and \texttt{polyglossia}}
 
-The simplest way of setting multilingual text in parallel is with \texttt{parallel}, as was shown in section (2). Since \texttt{parallel} can be tedious to organize for more than a stanza/paragraph or two, I remind the reader of \texttt{reledpar} and \texttt{reledmac} for longer and/or more complicated parallel text displays, as I recommended in section (3).
+The simplest way of setting multilingual text side-by-side is with \texttt{parallel}, as was shown in section (2). Since \texttt{parallel} can be tedious to organize for more than a stanza/paragraph or two, I remind the reader of \texttt{reledpar} and \texttt{reledmac} for long and/or complicated parallel text displays, as I suggested in section (3).
 
-Here is an example of \texttt{parallel} and \texttt{polyglossia} working in combination to display my own translation from the opening chapter of my recently published historical monograph \titleref{Maximus the Confessor's Thomistic Legacy}:
+Here is an example of \texttt{parallel} and \texttt{polyglossia} working in combination to display my own translation from the opening chapter of my recently published historical monograph \titleref{Maximus the Confessor's Thomistic Legacy}:\\
 
 \begin{verbatim}
 \begin{Parallel}{0em}{0em}
@@ -245,7 +240,7 @@ Here is an example of \texttt{parallel} and \texttt{polyglossia} working in comb
 \end{verbatim}
 
 
-For a conference or classroom handout, the result might look like Figure 1: ``Canon in Honor of Thomas Aquinas,'' Ode 3, which is shown on the next page.\footnote{The Greek text in Figure 1 is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \titleref{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58. This parallel Greek text with my Latin translation duplicates Corey J. Stephan, \titleref{Maximus the Confessor’s Thomistic Legacy}, Medi\ae val Law and Theology 10 / Studies and Texts 244 (Toronto: Pontifical Institute of Mediaeval Studies, 2026), 6.
+For a conference or classroom handout, the result might look like Figure 1: ``Canon in Honor of Thomas Aquinas,'' Ode 3, which is shown at full page width on the next page.\footnote{The Greek text in Figure 1 is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \titleref{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58. This parallel Greek text with my Latin translation duplicates Corey J. Stephan, \titleref{Maximus the Confessor’s Thomistic Legacy}, Medi\ae val Law and Theology 10 / Studies and Texts 244 (Toronto: Pontifical Institute of Mediaeval Studies, 2026), 6.
 }
 
 \begin{figure*}
@@ -324,22 +319,23 @@ For a conference or classroom handout, the result might look like Figure 1: ``Ca
 \caption{``Canon in Honor of Thomas Aquinas,'' Ode 3}
 \end{figure*}
 
-\section{Other \LaTeX\ tools for scholars of humanities}
+\section{Other \LaTeX\ tools for humanities handouts}
 
-There are many \LaTeX\ tools that can assist work across the humanities disciplines. Here is a succinct, curated list of the most broadly applicable:
+There are many \LaTeX\ tools that can assist work across the humanities disciplines. Here is a succinct, curated list of the most broadly applicable, especially those that one might wish to use to assist with preparing a handout for a conference presentation or university class period:
 
 \begin{itemize}
 	\item Either \BibLaTeX\ or the older but still useful \BibTeX\ offers a comprehensive citation and bibliography management system that is capable of being interlinked with a variety of citation managers \Dash notably, for academic research, Zotero and JabRef.
 		\subitem \BibLaTeX\ and \BibTeX\ are both built into \hologo{TeXLive} and other \LaTeX\ distributions.
+		\subitem For work in humanities disciplines, \BibLaTeX\ has the advantage over \BibTeX\ of full Unicode (UTF-8) support. Yet, if one does not need full UTF-8, one ought to consider either option.
 	
-	\item The free and open source graphical software application \texttt{TeXstudio} (\url{texstudio.org}) offers a \LaTeX\ -specific writing environment with comfortable features like intuitive autocompletion of \LaTeX\ commands.
+	\item The free and open source (GPL-2) graphical software application \texttt{TeXstudio} (\url{texstudio.org}) offers a \LaTeX\ -specific writing environment with comfortable features like intuitive autocompletion of \LaTeX\ commands.
 		\subitem \LaTeX\ may be written in any plain text editor, but a designated environment improves efficiency and helps avoid code errors.
-		\subitem \texttt{TeXstudio} is included in the official software repositories of most libre Unix-like operating systems (GNU/Linux and BSD).
+		\subitem I specifically mention \texttt{TeXstudio} because it is what I use for my own work and (on a practical note) it is included in the official software repositories of most libre Unix-like operating systems (GNU/Linux and BSD).
 	
 	\item By running search queries in \CTAN, one may find community-built packages for many individual languages that are of relevance for historical or other academic research, e.g. \texttt{aramaic-serto} for the ancient Middle-Eastern language Syriac (Aramaic).
 	
 	\item \texttt{microtype} offers many small adjustments to type, such as improved automatic justification and hyphenation.
-		\subitem This article is a working example of the \texttt{microtype} package in-use.
+		\subitem This TUGboat article provides a working example of the \texttt{microtype} package in-use.
 \end{itemize}
 
 
