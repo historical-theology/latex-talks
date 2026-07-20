@@ -51,20 +51,20 @@
 \maketitle
 
 \begin{abstract}
-{\LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \LaTeX's utility for scholars in humanities disciplines, however, tends to be overlooked. In this tutorial, I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting materials with unusual line length and other organizational needs, such as poetry and translations. The specific example is preparing a handout for a historical conference or class presentation with excerpts of ancient Greek and parallel English translations. Additionally, I provide general recommendations for learning and employing \LaTeX\ across the academic disciplines of the humanities. I aim to inspire colleagues in religious, historical, philosophical, and related areas of study to think of \LaTeX\ as having a wide range of professional applications even inside these scholarly fields in which the use of \LaTeX\ is not widespread.}
+{\LaTeX\ has been popular throughout the mathematical and physical sciences for decades. \LaTeX's utility for scholars in humanities disciplines, however, tends to be overlooked. In this tutorial, I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting materials with unusual line length and other organizational needs, such as poetry and translations. The specific example is preparing a handout for a historical conference or class presentation with excerpts of ancient Greek and parallel English translations. Additionally, I provide general recommendations for learning and employing \LaTeX\ across the academic disciplines of the humanities. I aim to inspire colleagues in religious, historical, philosophical, and related areas of study to think of \LaTeX\ as having a wide range of potential professional applications even inside these scholarly fields in which the use of \LaTeX\ is not widespread.}
 \end{abstract}
 
 \section{\LaTeX\ for the humanities}
 
-The world's best established software system for typesetting and document formatting, \LaTeX\ has been popular throughout mathematical and physical sciences since before I was born. The utility of \LaTeX\ for humanities disciplines, however, long has been overlooked. The barrier to entry of learning a language for computer typesetting often means that persons outside disciplines do not bother. Yet, \LaTeX\ can be used for elegant typesetting in most instances in which a scholar of humanities needs to present materials, especially when the presentation matters per se. Whether one works in history, philosophy, literature, or some other discipline in which \LaTeX\ is not usually employed, \LaTeX\ is worth taking the time to learn.
+The world's best established software system for typesetting and document formatting, \LaTeX\ has been popular throughout mathematical and physical sciences since before I was born. The utility of \LaTeX\ for humanities disciplines, however, long has been overlooked. The barrier to entry of learning a language for computer typesetting often means that persons outside disciplines in which \LaTeX\ is taught from an early point in studies (such as during a Bachelor's or Master's program \Dash\ certainly prior to doctoral studies) do not bother. Yet, \LaTeX\ can be used for elegant typesetting in most instances in which a scholar of humanities needs to present materials, especially when the appearance of the materials matters per se. Whether one works in history, philosophy, literature, or some other discipline in which \LaTeX\ is not usually employed, I contend that \LaTeX\ is worth taking the time to learn.
 
-Granted, in disciplines outside the mathematical and physical sciences, such as my own area of historical theology (technically, divinities rather than humanities), editors expect us to prepare our materials for publications with bug-for-bug compatibility with Microsoft Word for back-and-forth review and markup. In practice, this expectation requires us to use word processors, such as LibreOffice Writer (among other free and open source options). A word processor presents material in a What You See Is What You Get (WYSIWYG, ``whizzy-wig'') style. While one writes, one simultaneously thinks about and tends to matters of formatting.
+Granted, in disciplines outside the mathematical and physical sciences, such as my own area of historical theology (technically, divinities rather than humanities), editors expect us to prepare our materials for publications with bug-for-bug compatibility with Microsoft Word so that we may have smooth back-and-forth review and markup. In practice, this expectation requires us to use word processors, such as LibreOffice Writer (among other free and open source options). A word processor presents material in a What You See Is What You Get (WYSIWYG, ``whizzy-wig'') style. While one writes, one simultaneously thinks about and tends to matters of formatting. (Here, I think of a familiar question: How do I need to adjust the spacing of this pesky footnote so that it aligns with the University Press's Style Guide?)
 
-In a typesetting language, such as \LaTeX\ (or \ConTeXt\ or Typst, either of which a scholar also might choose for various reasons), one is only concerned about the structure of what one is writing. One declares that specific characters will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, and so on), and one allows the program to compile one's writing as `code' into a tidy final document \Dash every time. Preparing a \textit{curriculum vitae}, conference handout, or other document with typesetting requirements beyond what are straightforward to achieve in a word processor becomes more about the writing itself with less worry about the formatting.
+In a typesetting language, such as \LaTeX\ (or \ConTeXt\ or Typst, either of which a scholar in humanities also might choose to use in various situations), one is more concerned about the structure of what one is writing than about the formatting. One declares that specific textual items will be in certain categories of writing `things' (heading, paragraph, footnote, accent type, typeface, and so on), and one allows the program to compile one's writing `code' into a tidy final document \Dash (nearly) every time. Preparing a \textit{curriculum vitae}, conference handout, or other document with typesetting requirements beyond what are straightforward to achieve in a word processor becomes more about the writing itself. A significant investment of time might be required at the beginning of a project to configure a .tex file's preamble and/or other matters related to the formatting of the `code' of writing. Once that investment has been made, however, one may simply write.
 
-To learn \LaTeX\ as a scholar outside the disciplines in which \LaTeX\ is the norm, I recommend working through one of two community-built, libre guidebooks. The first, which I used to learn \LaTeX, is \titleref{The Not So Short Introduction to \LaTeX} (\url{github.com/oetiker/lshort}). The second, which a colleague of mine recommends, is \titleref{Modern \LaTeX} (\url{github.com/mrkline/modern-latex}). Either guidebook may be used to begin to learn to typeset cover letters, ancient languages, and other materials that are relevant across the humanities \Dash without the front-loading of mathematics and physical sciences that one finds in most other introductions.
+To learn \LaTeX\ as a scholar outside the disciplines in which \LaTeX\ is the norm, I recommend working through one of two community-built, libre guidebooks. The first, which I used to learn \LaTeX, is \titleref{The Not So Short Introduction to \LaTeX} (\url{github.com/oetiker/lshort}). The second, which a colleague of mine recommends, is \titleref{Modern \LaTeX} (\url{github.com/mrkline/modern-latex}). Either guidebook may be used to begin to learn to typeset cover letters, ancient languages, and other materials that are relevant across the humanities \Dash without the front-loading of mathematics and physical sciences that one finds in most other introductions. Moreover, during the Q\&A at the end of the talk at \TUG\ 2026 on which this article is based, a fellow conference participant helpfully added **\LaTeX-guide.org**, which is an official part of the \LaTeX\ project, as a third recommendation. This website provides an interactive tutorial that anyone may use who intends to start using \LaTeX\ for any purpose.
 
-To show how thinking about digital typesetting in terms of document structure rather than final format can be of practical use in the humanities, here I present a tutorial in which I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs. The case study is preparing a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. The principles that I outline will be applicable to any presentation of parallel text and, more generally, all types of handouts that are common in humanities conferences and classrooms.
+To show how thinking about digital writing in terms of document structure rather than final format can be of practical use in the humanities, here I present a tutorial in which I introduce the use of \LaTeX\ for a common task in humanities scholarship, namely, typesetting texts with unusual line length and other organizational needs. The case study is preparing a handout for a historical conference or class presentation with perfectly organized excerpts of a Byzantine Greek text and an original English translation in parallel. The principles that I outline will be applicable to any presentation of parallel text and, more generally, all varieties of handouts that are common in professional settings across the humanities.
 
 \section{Simplest side-by-side text in \LaTeX: \texttt{parallel}}
 
@@ -75,21 +75,22 @@ To start using \texttt{parallel} in any \LaTeX\ document, include the following 
 \begin{verbatim}
 \usepackage{parallel}
 \end{verbatim}
-For example, here is an abbreviation of the preamble to the Beamer file for my talk at the 2026 conference of the \TUG\ (\url{github.com/historical-theology/latex-talks/}) with only the most important entries, including the declaration of the package \texttt{parallel}:
+For example, here is an abbreviation of the preamble to the Beamer (\LaTeX\ slide show) file for my talk at the 2026 conference of the \TUG\ (\url{github.com/historical-theology/latex-talks/}) on which this article is based with only the most important entries, including the declaration of the package \texttt{parallel}:
 
 \begin{verbatim}
 \documentclass[aspectratio=169]{beamer}
 \usetheme{Goettingen}
-
+...
 \usepackage{parallel}
-
+...
 \title{\LaTeX\ for Elegant 
 	Humanities Handouts \\ 
 	in Conferences and Classrooms }
 \author{Corey Stephan, Ph.D.}
-
+...
 \begin{document}
 \end{verbatim}
+I begin by declaring that the class of the document is \texttt{beamer} (with a 16:9 aspect ratio for all slides, per the specifications of \TUG). Then, after some more (suppressed) entries, I actually declare that I will be using the package \texttt{parallel}. After some more (suppressed) entries, I assign a title to the document and supply my name as the author. Finally, I trigger the document (writing) portion to begin.
 
 This is the basic format for parallel text set with the package \texttt{parallel}:
 
@@ -102,6 +103,8 @@ This is the basic format for parallel text set with the package \texttt{parallel
 [and so on]
 \end{Parallel}	
 \end{verbatim}
+First, one opens an instance of \texttt{parallel}. Then, one writes the first left row, followed by the adjacent right row. One triggers a new line with \verb|\ParallelPar\]| (i.e. \textit{parallel paragraph}). Then, one writes the second left row, followed by the second right row, and so on until one ends the instance of \texttt{parallel}.
+
 I (a theologian) might typeset the opening words of the Christian prayer \textit{Ave Maria} in their traditional Latin with parallel English like so:
 
 \begin{verbatim}
@@ -130,19 +133,21 @@ Here is the result:
 \end{Parallel}
 \end{minipage}\\
 
-\texttt{parallel} makes it easy to set short sections of text side-by-side in \LaTeX.
+\texttt{parallel} makes it easy to set short sections of text, from a few lines to a few stanzas or paragraphs, side-by-side in \LaTeX.
 
 \section{Advanced parallel text in \LaTeX:\\ \texttt{reledpar} and \texttt{reledmac}}
 
 For more advanced setting of parallel text in \LaTeX, especially long-form (e.g. a critical edition with accompanying translation), one ought to learn the two interconnected and frequently updated community packages \texttt{reledpar} (for parallel typesetting specifically) and \texttt{reledmac} (for typesetting academic editions in general), which are bundled with the major \LaTeX\ distributions.
 
-\texttt{reledpar} and \texttt{reledmac} are purpose-built for lengthy side-by-side texts, especially in academic articles, books, and critical editions. These two packages are meant to replace older methods of academic parallel text preparation in \LaTeX\ that one might find in Web searches. For full documentation, visit \url{ctan.org/pkg/reledpar} and \url{ctan.org/pkg/reledmac}.
+\texttt{reledpar} and \texttt{reledmac} are purpose-built for lengthy side-by-side texts, especially in academic articles, books, and critical editions. These two packages are meant to replace older methods of academic parallel text preparation in \LaTeX\ that one might find in Web searches (notably, the outdated \texttt{ledpar} and \texttt{ledmac}, which \texttt{reledpar} and \texttt{reledmac} replace). 
+
+\texttt{reledpar} and \texttt{reledmac} also offer flexible functionality that is difficult to find in any software outside \LaTeX, such as \texttt{reledmac}'s ability to wrangle the apparatus of a textual critical edition with mere markup syntax. (At \TUG\ 2026, Ulrike Fischer informed me that she has interacted with German-speaking scholars who use \LaTeX\ precisely for its smooth flexibility with typesetting critical editions.) For the full documentation of these two packages, visit \url{ctan.org/pkg/reledpar} and \url{ctan.org/pkg/reledmac}.
 
 \section{Setting non-Latin characters in \LaTeX: \texttt{babel} and \texttt{polyglossia}}
 
-The most important \LaTeX\ packages for languages with non-Latin alphabets are \texttt{babel} and \texttt{polyglossia}, which are included in the major \LaTeX\ distributions. Although it is possible to convert a project from one of these metapackages to the other, a scholar ought to invest the time to choose carefully between either of these two at the start of a grand project.
+The most important \LaTeX\ packages for languages with non-Latin alphabets are \texttt{babel} and \texttt{polyglossia}, which are included in the major \LaTeX\ distributions. Although it is possible to convert a project from one of these metapackages to the other (since the syntax is highly similar between the two), a scholar ought to invest the time to choose carefully between either of them at the start of a grand project.
 
-In \titleref{The \LaTeX\ Companion: 3rd Edition} (Addison-Wesley, 2023), Frank Mittelbach and Ulrike Fischer suggest that despite the fact that \texttt{babel} is older than \texttt{polyglossia}, \texttt{babel} generally is preferrable: ``Unless you are in a special situation where a language or script is notably better supported by \texttt{polyglossia}, the recommendation is to use \texttt{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). Since \texttt{babel} technically supports the same languages as \texttt{polyglossia}, a situation in which one would need \texttt{polyglossia} over \texttt{babel} is rare. Yet, a scholar working with an ancient language might face a situation in which, say, \texttt{polyglossia} actually supports that language better than \texttt{babel}. To make an informed choice against a given academic undertaking's particular requirements, one should explore each package's documentation at \url{ctan.org/pkg/babel} and \url{ctan.org/pkg/polyglossia}.
+In \titleref{The \LaTeX\ Companion: 3rd Edition} (Addison-Wesley, 2023), Frank Mittelbach and Ulrike Fischer suggest that despite the fact that \texttt{babel} is older than \texttt{polyglossia}, \texttt{babel} generally is preferrable: ``Unless you are in a special situation where a language or script is notably better supported by \texttt{polyglossia}, the recommendation is to use \texttt{babel} with all engines'' (entry 13.7.2, ``Polyglossia''). Since \texttt{babel} technically supports the same languages as \texttt{polyglossia}, a situation in which one would need \texttt{polyglossia} over \texttt{babel} is rare. Yet, a scholar working with an ancient language might face a situation in which, say, \texttt{polyglossia} actually supports that language better than \texttt{babel}. To make an informed choice against a given academic undertaking's particular requirements, one should explore each package's documentation at \url{ctan.org/pkg/babel} and \url{ctan.org/pkg/polyglossia} \Dash and, perhaps, even run a small test with both \texttt{babel} and \texttt{polyglossia} with a sample of the non-Latin writing that one intends to typeset.
 
 In (old) Web forum discussions, one might read that \texttt{babel} will work better with the \LaTeX\ engine \LuaLaTeX, whereas \texttt{polyglossia} will work better with \XeLaTeX. As of the time of writing this essay, however, one may choose either of the two mainline \LaTeX\ engines that are built with full Unicode support, \XeLaTeX\ or \LuaLaTeX, for either \texttt{babel} or \texttt{polyglossia}. Results might vary depending on the specifics of a given project.
 
@@ -158,28 +163,27 @@ First, include the package in the preamble:
 \begin{verbatim}
 \usepackage{polyglossia}
 \end{verbatim} 
-
-Then, after the beginning of the document but before actual type, declare the languages and their variants. For example, here is this .tex file's declarations:
+Then, after the beginning of the document but before actual type, declare the languages and their variants. For example, here is this .tex file's own \texttt{polyglossia} declarations:
 
 \begin{verbatim}
 \begin{document}
 	\setdefaultlanguage{english}
 	\setotherlanguage[variant=ancient]{greek}
 \end{verbatim}
+It is important to explore the \texttt{variant} options that are available for a given language in the official \texttt{polyglossia} documentation, since setting this correctly enables correct hyphenation, accent marks, and other matters of typography. Here, I use \texttt{variant=ancient} to set polytonic Greek rather than the default Greek variant (i.e. Modern).
 
-One is able to use one of the `other' declared languages (in this case, ancient Greek) by toggling it when needed.
+One is able to use one of the `other' declared language(s) (in this case, ancient Greek) by toggling it when needed.
 
 A declared foreign or ancient language may be toggled for a long excerpt like so:
-%
+
 \begin{verbatim}
 \begin{greek}
 	<greek text>
 	...
 \end{greek}
 \end{verbatim}
-%
 For example, this is how one could set the famous opening verse of John's Gospel:
-%
+
 \begin{verbatim}
 \begin{greek}
 ἐν ἀρχῇ ἦν ὁ λόγος, \\
@@ -196,7 +200,7 @@ Here is the clean result:
 καὶ θεὸς ἦν ὁ λόγος. \\
 \end{greek} 
 \\
-For another example, here are the first two lines of Homer's \titleref{The Iliad}:
+For another example, these are the first two lines of Homer's \titleref{The Iliad}:
 
 \begin{verbatim}
 \begin{greek}
@@ -214,19 +218,19 @@ The result is equally clean to that of John 1:1, even for these particular words
 \\
 
 
-A declared language may be toggled for a single word or line (rather than a series of verses or lines) in this way:
+A declared language may be toggled for a single word or phrase (rather than a series of verses or lines) in this way:
 
 \begin{verbatim}
 \text<language>{<text in language>}
 \end{verbatim}
 %
-This mid-line toggling style be used to insert a keyword in that declared language, e.g. {\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), inside running prose in another language, such as the document's primary one.
+This mid-line toggling style may be used to insert a keyword or short quotation in that declared language, e.g. {\textgreek{ὁ λόγος}} (produced with \verb|\textgreek{ὁ λόγος}|), inside running prose in another language, such as the document's primary one.
 
 \section{Combining \texttt{parallel} and \texttt{polyglossia}}
 
-The simplest way of setting multilingual text side-by-side is with \texttt{parallel}, as was shown in section (2). Since \texttt{parallel} can be tedious to organize for more than a stanza/paragraph or two, I remind the reader of \texttt{reledpar} and \texttt{reledmac} for long and/or complicated parallel text displays, as I suggested in section (3).
+The simplest way of setting multilingual text side-by-side is with \texttt{parallel}, as I showed in section (2). Since \texttt{parallel} can be tedious to organize for more than a few stanzas/paragraphs, I remind the reader of \texttt{reledpar} and \texttt{reledmac} for long and/or complicated parallel text displays, as I suggested in section (3).
 
-Here is an example of \texttt{parallel} and \texttt{polyglossia} working in combination to display my own translation from the opening chapter of my recently published historical monograph \titleref{Maximus the Confessor's Thomistic Legacy}:\\
+Here is an example of \texttt{parallel} and \texttt{polyglossia} working in combination to display my own translation from the opening chapter of my recently published historical monograph \titleref{Maximus the Confessor's Thomistic Legacy} as I might do on a conference or classroom handout:
 
 \begin{verbatim}
 \begin{Parallel}{0em}{0em}
@@ -238,10 +242,7 @@ Here is an example of \texttt{parallel} and \texttt{polyglossia} working in comb
 [and so on]
 \end{Parallel}	
 \end{verbatim}
-
-
-For a conference or classroom handout, the result might look like Figure 1: ``Canon in Honor of Thomas Aquinas,'' Ode 3, which is shown at full page width on the next page.\footnote{The Greek text in Figure 1 is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \titleref{Archivum Fratrum Praedicatorum} 12 (1934): 145--85, at 155--58. This parallel Greek text with my Latin translation duplicates Corey J. Stephan, \titleref{Maximus the Confessor’s Thomistic Legacy}, Medi\ae val Law and Theology 10 / Studies and Texts 244 (Toronto: Pontifical Institute of Mediaeval Studies, 2026), 6.
-}
+The result might look like Figure 1: ``Canon in Honor of Thomas Aquinas,'' Ode 3, which spans the full width of the next page.\footnote{The Greek text in Figure 1 is from Raffaele Cantarella, ed., “Canone greco inedito di Giuseppe vescovo di Methone in onore di San Tommaso d’Aquino,” \titleref{Archivum Fratrum Pr\ae dicatorum} 12 (1934): 145--85, at 155--58. This parallel Greek text with my Latin translation duplicates Corey J. Stephan, \titleref{Maximus the Confessor’s Thomistic Legacy}, Medi\ae val Law and Theology 10 / Studies and Texts 244 (Toronto: Pontifical Institute of Medi\ae val Studies, 2026), 6.} With \texttt{parallel}, all spacings \Dash between lines, letters, and otherwise \Dash appear exactly how one expects without one having to do any of the (dreadful) fiddling that comes with trying to achieve a similar result using tables in a word processor.
 
 \begin{figure*}
 \begin{Parallel}{0em}{0em}
@@ -326,16 +327,16 @@ There are many \LaTeX\ tools that can assist work across the humanities discipli
 \begin{itemize}
 	\item Either \BibLaTeX\ or the older but still useful \BibTeX\ offers a comprehensive citation and bibliography management system that is capable of being interlinked with a variety of citation managers \Dash notably, for academic research, Zotero and JabRef.
 		\subitem \BibLaTeX\ and \BibTeX\ are both built into \hologo{TeXLive} and other \LaTeX\ distributions.
-		\subitem For work in humanities disciplines, \BibLaTeX\ has the advantage over \BibTeX\ of full Unicode (UTF-8) support. Yet, if one does not need full UTF-8, one ought to consider either option.
 	
-	\item The free and open source (GPL-2) graphical software application \texttt{TeXstudio} (\url{texstudio.org}) offers a \LaTeX\ -specific writing environment with comfortable features like intuitive autocompletion of \LaTeX\ commands.
+	\item The free and open source (GPL-2) graphical software application \texttt{TeXstudio} (\url{texstudio.org}) offers a \LaTeX\ -specific writing environment with comfortable features like intuitive autocompletion of \LaTeX\ commands, many options for custom theming, and even a (self-hosted) collaborative editing option.
 		\subitem \LaTeX\ may be written in any plain text editor, but a designated environment improves efficiency and helps avoid code errors.
 		\subitem I specifically mention \texttt{TeXstudio} because it is what I use for my own work and (on a practical note) it is included in the official software repositories of most libre Unix-like operating systems (GNU/Linux and BSD).
 	
 	\item By running search queries in \CTAN, one may find community-built packages for many individual languages that are of relevance for historical or other academic research, e.g. \texttt{aramaic-serto} for the ancient Middle-Eastern language Syriac (Aramaic).
 	
 	\item \texttt{microtype} offers many small adjustments to type, such as improved automatic justification and hyphenation.
-		\subitem This TUGboat article provides a working example of the \texttt{microtype} package in-use.
+		\subitem I use \texttt{microtype} in everything that I make professionally in \LaTeX. Atop \LaTeX's default elegance, \texttt{microtype} helps self-produced documents look as similar to materials that have been prepared by a press's typesetter as is reasonably possible.
+		\subitem This TUGboat article provides a real-world example of the \texttt{microtype} package in-use.
 \end{itemize}
 
 
